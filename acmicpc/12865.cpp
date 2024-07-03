@@ -24,11 +24,9 @@ int main(){
     for(int i=0; i<N; ++i) mat[i] = new int[K+1]();
 
     for(int k=1; k<=K; k++){
-        
+
 
     }
-
-
     cout <<ans;
 
     return 0;
