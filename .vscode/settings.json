@@ -4,6 +4,7 @@
         "vector": "cpp",
         "utility": "cpp",
         "system_error": "cpp",
-        "xlocale": "cpp"
+        "xlocale": "cpp",
+        "deque": "cpp"
     }
 }
