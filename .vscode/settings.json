@@ -5,6 +5,8 @@
         "utility": "cpp",
         "system_error": "cpp",
         "xlocale": "cpp",
-        "deque": "cpp"
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "queue": "cpp"
     }
 }
