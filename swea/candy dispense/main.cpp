@@ -33,8 +33,8 @@
 #include<iostream>
 #include<vector>
 #include<cmath>
-using namespace std;
 
+using namespace std;
 
 int S;
 long long int calc(int K) {
