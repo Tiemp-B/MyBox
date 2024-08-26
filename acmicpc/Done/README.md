@@ -4,6 +4,7 @@
 |번호|랭크|제목|카텍고리|링크|
 |:---|---|---:|---:|---:|
 |1106|G.IV|호텔|DP-냅색| https://www.acmicpc.net/problem/1106 |
+|1516|G.III|게임 개발| DP,위상정렬,그래프| https://www.acmicpc.net/problem/1516 |
 |1588|G.I|수열|DP-DivideConcour| https://www.acmicpc.net/problem/1588|
 |1244|S.IV|스위치 켜고 끄기|시뮬레이션|https://www.acmicpc.net/problem/1244 |
 |2066|G.I|카드놀이|DP-메모이제이션|https://www.acmicpc.net/problem/2066|
