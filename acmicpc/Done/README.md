@@ -14,5 +14,11 @@
 |[11580](https://www.acmicpc.net/problem/11580)|B.I|Footprint|시뮬레이션|
 |[11723](https://www.acmicpc.net/problem/11723)|S.V|집합|bitmask, 구현|
 |[12865](https://www.acmicpc.net/problem/12865)|G.V|평범한 배낭| DP-냅색|
+|[14929](https://www.acmicpc.net/problem/14920)|S.V|귀찮아(SIB)| 수학, 누적합|
 |[15666](https://www.acmicpc.net/problem/15666)|G.II|N과 M(12)|백트래킹|
 |[15720](https://www.acmicpc.net/problem/15720)|S.V|카우버거|수학, 그리디|
+|[30873](https://www.acmicpc.net/problem/30873)|S.V|Hanyang PopularityExceeding...|그리디, 구현, HCPC|
+|[30874](https://www.acmicpc.net/problem/30874)|S.2|Pipelined|그리디, 애드혹, HCPC|
+
+
+
