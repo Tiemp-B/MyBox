@@ -20,6 +20,7 @@
 |[16430](https://www.acmicpc.net/problem/16430)|B.V|톰과 제리|수학|
 |[15720](https://www.acmicpc.net/problem/15720)|S.V|카우버거|수학, 그리디|
 |[23972](https://www.acmicpc.net/problem/23972)|B.III|악마의 제안|수학|
+|[27964](https://www.acmicpc.net/problem/27694)|S.V|콰트로치즈피자|구현, 자료구조, 문자열|
 |[30873](https://www.acmicpc.net/problem/30873)|S.V|Hanyang PopularityExceeding...|그리디, 구현, HCPC|
 |[30874](https://www.acmicpc.net/problem/30874)|S.II|Pipelined|그리디, 애드혹, HCPC|
 
