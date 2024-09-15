@@ -20,10 +20,12 @@
 |[14929](https://www.acmicpc.net/problem/14920)|S.V|귀찮아(SIB)| 수학, 누적합|
 |[15666](https://www.acmicpc.net/problem/15666)|G.II|N과 M(12)|백트래킹|
 |[15720](https://www.acmicpc.net/problem/15720)|S.V|카우버거|수학, 그리디|
+|[15781](https://www.acmicpc.net/problem/15781)|B.III|헬멧과 조끼|수학, 구현|
 |[15874](https://www.acmicpc.net/problem/15874)|B.II|Caesar Cipher|구현, 문자열|
 |[16430](https://www.acmicpc.net/problem/16430)|B.V|톰과 제리|수학|
 |[18766](https://www.acmicpc.net/problem/18766)|B.I|카드 바꿔치기|구현, 정렬|
 |[23972](https://www.acmicpc.net/problem/23972)|B.III|악마의 제안|수학|
+|[24263](https://www.acmicpc.net/problem/24263)|B.IV|알고리즘수업 - 수행시간 2|구현, 시뮬레이션|
 |[27964](https://www.acmicpc.net/problem/27694)|S.V|콰트로치즈피자|구현, 자료구조, 문자열|
 |[30873](https://www.acmicpc.net/problem/30873)|S.V|Hanyang PopularityExceeding...|그리디, 구현, HCPC|
 |[30874](https://www.acmicpc.net/problem/30874)|S.II|Pipelined|그리디, 애드혹, HCPC|
