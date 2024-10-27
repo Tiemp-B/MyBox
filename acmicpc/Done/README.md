@@ -14,6 +14,7 @@
 |[4991](https://www.acmicpc.net/problem/4991)|G.I|로봇청소기|그래프, 브루트포스, BFS, BitMask|
 |[5430](https://www.acmicpc.net/problem/5430)|G.V|AC|시뮬, 자료 구조|
 |[10798](https://www.acmicpc.net/problem/10798)|B.I|세로읽기|구현, 문자열|
+|[10874](https://www.acmicpc.net/problem/10874)|B.III|이교수님의 시험|구현|
 |[11022](https://www.acmicpc.net/problem/11022)|B.V|A+B -8|구현, 수학|
 |[11201](https://www.acmicpc.net/problem/11021)|B.V|A+B -7|구현, 수학|
 |[11580](https://www.acmicpc.net/problem/11580)|B.I|Footprint|시뮬레이션|
