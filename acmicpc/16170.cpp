@@ -1,7 +1,6 @@
 #include <iostream>
 #include <iomanip>
 #include <chrono>
-#include <ctime>
 
 using namespace std;
 using namespace std::chrono;  
@@ -13,7 +12,7 @@ int main(){
     
     tm* utc = gmtime(&now_t);
 
-    cout <<std::put_time(utc, "%Y\n%m\n%d");
+    cout << put_time(utc, "%Y\n%m\n%d");
 
     return 0;
 }
