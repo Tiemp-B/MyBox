@@ -1,4 +1,49 @@
-<script setup>
+<template>
+  <div>
+    <HlsPlayer :streamUrl="'https://localhost:8000/output.m3u8'" />
+  </div>
+</template>
+
+<script>
+import HlsPlayer from './views/HlsPlayer.vue';
+
+export default {
+  components: {
+    HlsPlayer,
+  },
+};
+</script>
+
+
+<!-- <template>
+  <div id="app">
+    <VideoPlayer />
+  </div>
+</template>
+
+<script>
+import VideoPlayer from './views/VideoPlayer.vue';
+
+export default {
+  components: {
+    VideoPlayer
+  }
+};
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style> -->
+
+
+<!-- <script setup>
 //import { RouterLink, RouterView, useRouter } from "./node_modules/vue-router/dist/vue-router";
 import { RouterLink, RouterView, useRouter } from "vue-router";
 import { loadImage } from "@/utils/src2img.js";
@@ -83,7 +128,7 @@ getMenu()
       <nav>
         <RouterLink to="/" @click="admin.admin = false">home</RouterLink> |
         <a v-if="!admin.admin" href="#" @click="togglePop">admin</a>
-        <!-- <RouterLink v-if="!admin.admin" to="/" @click="changeMode">admin</RouterLink> -->
+        <! -- <RouterLink v-if="!admin.admin" to="/" @click="changeMode">admin</RouterLink> -- >
         <RouterLink v-else to="/" @click="admin.admin = false">user</RouterLink>
       </nav>
     </footer>
@@ -168,4 +213,4 @@ body {
   display: flex;
   justify-content: center;
 }
-</style>
+</style> -->

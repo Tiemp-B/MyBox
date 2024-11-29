@@ -8,8 +8,10 @@
 |[1284](https://www.acmicpc.net/problem/1284)|B.III|집 주소|수학, 구현| 
 |[1516](https://www.acmicpc.net/problem/1516)|G.III|게임 개발| DP,위상정렬,그래프|  
 |[1588](https://www.acmicpc.net/problem/1588)|G.I|수열|DP-DivideConcour|
+|[2010](https://www.acmicpc.net/problem/2010)|B.III|플러그|수학|
 |[2066](https://www.acmicpc.net/problem/2066)|G.I|카드놀이|DP-메모이제이션|
 |[2579](https://www.acmicpc.net/problem/2579)|S.III|계단오르기|DP-계단| 
+|[2741](https://www.acmicpc.net/problem/2741)|V.V|N 찍기|구현| 
 |[2702](https://www.acmicpc.net/problem/2702)|B.II|초6 수학|수학, 부르트포스| 
 |[4991](https://www.acmicpc.net/problem/4991)|G.I|로봇청소기|그래프, 브루트포스, BFS, BitMask|
 |[5430](https://www.acmicpc.net/problem/5430)|G.V|AC|시뮬, 자료 구조|
