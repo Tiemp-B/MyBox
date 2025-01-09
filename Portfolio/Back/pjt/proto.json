@@ -1,0 +1,29 @@
+{
+    "update": "date",
+    "pjt": [
+        {
+            "banner": "",
+            "simple": {
+                "summary": "",
+                "date": ""
+            },
+            "detail": {
+                "summary": "",
+                "date": ""
+            }
+        },
+        {
+            "banner": "",
+            "date": "",
+            "team": "",
+            "stacks": [],
+            "simple": {
+                "summary": ""
+            },
+            "detail": {
+                "summary": "",
+                ""
+            }
+        }
+    ]
+}

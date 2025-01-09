@@ -1,20 +1,3 @@
-<template>
-  <div>
-    <HlsPlayer :streamUrl="'https://localhost:8000/output.m3u8'" />
-  </div>
-</template>
-
-<script>
-import HlsPlayer from './views/HlsPlayer.vue';
-
-export default {
-  components: {
-    HlsPlayer,
-  },
-};
-</script>
-
-
 <!-- <template>
   <div id="app">
     <VideoPlayer />
@@ -42,8 +25,7 @@ export default {
 }
 </style> -->
 
-
-<!-- <script setup>
+<script setup>
 //import { RouterLink, RouterView, useRouter } from "./node_modules/vue-router/dist/vue-router";
 import { RouterLink, RouterView, useRouter } from "vue-router";
 import { loadImage } from "@/utils/src2img.js";
@@ -213,4 +195,4 @@ body {
   display: flex;
   justify-content: center;
 }
-</style> -->
+</style>

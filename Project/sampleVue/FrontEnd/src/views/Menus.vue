@@ -1,36 +1,36 @@
 <script setup>
-import { ItemStore, sysImgStore, adminMode, basketStore, baseURL } from "@/common/store";
-// import { ref } from "./node_modules/vue/dist/vue";
-import { ref } from "vue";
-import itemCard from "@/components/itemCard.vue";
-import detailCard from "@/components/detailCard.vue";
-import popPage from "@/components/popPage.vue";
+  import { ItemStore, sysImgStore, adminMode, basketStore, baseURL } from "@/common/store";
+  // import { ref } from "./node_modules/vue/dist/vue";
+  import { ref } from "vue";
+  import itemCard from "@/components/itemCard.vue";
+  import detailCard from "@/components/detailCard.vue";
+  import popPage from "@/components/popPage.vue";
 
-const admin = adminMode();
-const basket = basketStore();
-const itemStore = ItemStore();
-const sysImg = sysImgStore();
+  const admin = adminMode();
+  const basket = basketStore();
+  const itemStore = ItemStore();
+  const sysImg = sysImgStore();
 
-const popOn = ref(false);
-const selectedID = ref(0);
-const selectedIdx = ref(0);
-const modifyThis = ref(0);
+  const popOn = ref(false);
+  const selectedID = ref(0);
+  const selectedIdx = ref(0);
+  const modifyThis = ref(0);
 
-function selectMenu(id, idx) {
-  selectedID.value = id;
-  selectedIdx.value = idx;
-}
-function deSelect() {
-  selectedID.value = 0;
-}
-function popPageToggle() {
-  if (popOn.value) modifyThis.value = 0;
-  popOn.value = !popOn.value;
-}
-function modifyStart() {
-  popPageToggle();
-  modifyThis.value = selectedIdx.value;
-}
+  function selectMenu(id, idx) {
+    selectedID.value = id;
+    selectedIdx.value = idx;
+  }
+  function deSelect() {
+    selectedID.value = 0;
+  }
+  function popPageToggle() {
+    if (popOn.value) modifyThis.value = 0;
+    popOn.value = !popOn.value;
+  }
+  function modifyStart() {
+    popPageToggle();
+    modifyThis.value = selectedIdx.value;
+  }
 
 
 </script>

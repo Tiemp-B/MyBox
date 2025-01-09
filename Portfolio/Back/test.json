@@ -1,0 +1,805 @@
+{
+    "object": "list",
+    "results": [
+        {
+            "object": "page",
+            "id": "15ac9007-947f-80db-9e62-d71606ca2111",
+            "created_time": "2024-12-12T13:36:00.000Z",
+            "last_edited_time": "2024-12-17T05:41:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "fffc9007-947f-8124-b1b5-ed9bc4e7d1f7"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "WebPost": {
+                    "id": "%3DTz%5D",
+                    "type": "checkbox",
+                    "checkbox": true
+                },
+                "기간": {
+                    "id": "ZJjp",
+                    "type": "date",
+                    "date": {
+                        "start": "2024-12-14",
+                        "end": null,
+                        "time_zone": null
+                    }
+                },
+                "기술스택": {
+                    "id": "hHO%7B",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "c6d5e32a-594c-4fd2-97fe-e3705798d2ab",
+                            "name": "Vue.js",
+                            "color": "red"
+                        },
+                        {
+                            "id": "0304e940-e49d-414f-b14d-8c3694399b91",
+                            "name": "JavaScript",
+                            "color": "green"
+                        },
+                        {
+                            "id": "9fcc9fb0-d545-46fd-b168-fde2cd9f1920",
+                            "name": "Jenkins",
+                            "color": "yellow"
+                        },
+                        {
+                            "id": "1655c4a0-e8c1-48e3-b23a-d6c17341660d",
+                            "name": "Docker",
+                            "color": "yellow"
+                        },
+                        {
+                            "id": "cf9e6c93-7df9-41c6-918e-c3fabdff32ad",
+                            "name": "Ubuntu",
+                            "color": "default"
+                        },
+                        {
+                            "id": "1bb036dc-2dbf-4c8b-8cb3-d80ee5d73236",
+                            "name": "AWS",
+                            "color": "green"
+                        },
+                        {
+                            "id": "d7721151-e33d-4788-b0ca-e15b218ec0d3",
+                            "name": "NginX",
+                            "color": "pink"
+                        },
+                        {
+                            "id": "003002a4-ad00-49bf-a90b-bab73b08619c",
+                            "name": "MySQL",
+                            "color": "purple"
+                        }
+                    ]
+                },
+                "담당역할": {
+                    "id": "htSi",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "인원": {
+                    "id": "jGPp",
+                    "type": "number",
+                    "number": 1
+                },
+                "프로젝트 개요": {
+                    "id": "%7C_EQ",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "포트폴리오 용 웹 페이지 제작",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "포트폴리오 용 웹 페이지 제작",
+                            "href": null
+                        }
+                    ]
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "포트폴리오 페이지 제작",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "포트폴리오 페이지 제작",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/15ac9007947f80db9e62d71606ca2111",
+            "public_url": "https://magic-chili-c75.notion.site/15ac9007947f80db9e62d71606ca2111"
+        },
+        {
+            "object": "page",
+            "id": "158c9007-947f-80fa-8b6a-f46ba59bc207",
+            "created_time": "2024-12-10T14:46:00.000Z",
+            "last_edited_time": "2024-12-17T05:42:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "fffc9007-947f-8124-b1b5-ed9bc4e7d1f7"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "WebPost": {
+                    "id": "%3DTz%5D",
+                    "type": "checkbox",
+                    "checkbox": true
+                },
+                "기간": {
+                    "id": "ZJjp",
+                    "type": "date",
+                    "date": {
+                        "start": "2022-04-18",
+                        "end": "2022-04-29",
+                        "time_zone": null
+                    }
+                },
+                "기술스택": {
+                    "id": "hHO%7B",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "b822192c-eca3-4685-85de-e5809de82e5f",
+                            "name": "RTOS",
+                            "color": "pink"
+                        },
+                        {
+                            "id": "25b0437c-b5b6-4563-bc46-1c7a1122fb93",
+                            "name": "uC/OS-iii",
+                            "color": "yellow"
+                        },
+                        {
+                            "id": "6766d224-ba58-473b-9313-7c7f5d82869d",
+                            "name": "STM",
+                            "color": "pink"
+                        },
+                        {
+                            "id": "318210a5-17f3-4b23-bc20-473a11119f91",
+                            "name": "ARM",
+                            "color": "pink"
+                        }
+                    ]
+                },
+                "담당역할": {
+                    "id": "htSi",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "기능 제작, 설계",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "기능 제작, 설계",
+                            "href": null
+                        }
+                    ]
+                },
+                "인원": {
+                    "id": "jGPp",
+                    "type": "number",
+                    "number": 1
+                },
+                "프로젝트 개요": {
+                    "id": "%7C_EQ",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "RTOS 스톱워치 제작",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "RTOS 스톱워치 제작",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/RTOS-158c9007947f80fa8b6af46ba59bc207",
+            "public_url": "https://magic-chili-c75.notion.site/RTOS-158c9007947f80fa8b6af46ba59bc207"
+        },
+        {
+            "object": "page",
+            "id": "155c9007-947f-8031-8cb7-eff3e6ec7667",
+            "created_time": "2024-12-07T05:31:00.000Z",
+            "last_edited_time": "2024-12-17T05:45:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "fffc9007-947f-8124-b1b5-ed9bc4e7d1f7"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "WebPost": {
+                    "id": "%3DTz%5D",
+                    "type": "checkbox",
+                    "checkbox": true
+                },
+                "기간": {
+                    "id": "ZJjp",
+                    "type": "date",
+                    "date": {
+                        "start": "2024-04-22",
+                        "end": "2024-05-17",
+                        "time_zone": null
+                    }
+                },
+                "기술스택": {
+                    "id": "hHO%7B",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "34be1814-0a30-43fd-892e-9053b8325027",
+                            "name": "Python",
+                            "color": "blue"
+                        },
+                        {
+                            "id": "aa031758-6ca7-41f8-a87a-fce7ccf79078",
+                            "name": "Firebase",
+                            "color": "gray"
+                        },
+                        {
+                            "id": "bb7e4d28-f26b-4410-8d3a-d37f653ace14",
+                            "name": "RaspberryPi",
+                            "color": "brown"
+                        },
+                        {
+                            "id": "6f35de71-5f7a-4ec7-9a23-cfbe5e566700",
+                            "name": "Socket",
+                            "color": "purple"
+                        }
+                    ]
+                },
+                "담당역할": {
+                    "id": "htSi",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Photon, UI, 투사체",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Photon, UI, 투사체",
+                            "href": null
+                        }
+                    ]
+                },
+                "인원": {
+                    "id": "jGPp",
+                    "type": "number",
+                    "number": 2
+                },
+                "프로젝트 개요": {
+                    "id": "%7C_EQ",
+                    "type": "rich_text",
+                    "rich_text": []
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "AGV:Tic-Tac-Toe",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "AGV:Tic-Tac-Toe",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/AGV-Tic-Tac-Toe-155c9007947f80318cb7eff3e6ec7667",
+            "public_url": "https://magic-chili-c75.notion.site/AGV-Tic-Tac-Toe-155c9007947f80318cb7eff3e6ec7667"
+        },
+        {
+            "object": "page",
+            "id": "fffc9007-947f-8160-8ffb-cdfdab3ac417",
+            "created_time": "2024-09-23T23:58:00.000Z",
+            "last_edited_time": "2024-12-17T05:40:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "fffc9007-947f-8124-b1b5-ed9bc4e7d1f7"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "WebPost": {
+                    "id": "%3DTz%5D",
+                    "type": "checkbox",
+                    "checkbox": true
+                },
+                "기간": {
+                    "id": "ZJjp",
+                    "type": "date",
+                    "date": null
+                },
+                "기술스택": {
+                    "id": "hHO%7B",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "ed8d09fd-2506-4f4c-89b0-4b4392dfd623",
+                            "name": "C#",
+                            "color": "default"
+                        },
+                        {
+                            "id": "67fed305-dbb8-489d-9574-b6e0e4444962",
+                            "name": "Unity",
+                            "color": "orange"
+                        }
+                    ]
+                },
+                "담당역할": {
+                    "id": "htSi",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "Photon, UI, 투사체",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "Photon, UI, 투사체",
+                            "href": null
+                        }
+                    ]
+                },
+                "인원": {
+                    "id": "jGPp",
+                    "type": "number",
+                    "number": 6
+                },
+                "프로젝트 개요": {
+                    "id": "%7C_EQ",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "4인 개인전 대전 게임",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "4인 개인전 대전 게임",
+                            "href": null
+                        }
+                    ]
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "[Unity] Anyway, I didn’t do it",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "[Unity] Anyway, I didn’t do it",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/Unity-Anyway-I-didn-t-do-it-fffc9007947f81608ffbcdfdab3ac417",
+            "public_url": "https://magic-chili-c75.notion.site/Unity-Anyway-I-didn-t-do-it-fffc9007947f81608ffbcdfdab3ac417"
+        },
+        {
+            "object": "page",
+            "id": "fffc9007-947f-816c-bdaf-f9ff46b2910d",
+            "created_time": "2024-09-23T23:58:00.000Z",
+            "last_edited_time": "2024-12-17T05:40:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "fffc9007-947f-8124-b1b5-ed9bc4e7d1f7"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "WebPost": {
+                    "id": "%3DTz%5D",
+                    "type": "checkbox",
+                    "checkbox": true
+                },
+                "기간": {
+                    "id": "ZJjp",
+                    "type": "date",
+                    "date": null
+                },
+                "기술스택": {
+                    "id": "hHO%7B",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "64332b2c-4937-425c-8b01-a742343c7145",
+                            "name": "Linux",
+                            "color": "pink"
+                        },
+                        {
+                            "id": "34be1814-0a30-43fd-892e-9053b8325027",
+                            "name": "Python",
+                            "color": "blue"
+                        },
+                        {
+                            "id": "6f35de71-5f7a-4ec7-9a23-cfbe5e566700",
+                            "name": "Socket",
+                            "color": "purple"
+                        },
+                        {
+                            "id": "29617e64-b413-4724-84eb-513ff1450fdd",
+                            "name": "Flutter",
+                            "color": "yellow"
+                        },
+                        {
+                            "id": "682d4d21-2df1-4db4-84f6-5cbf0d2414ab",
+                            "name": "Spring",
+                            "color": "yellow"
+                        }
+                    ]
+                },
+                "담당역할": {
+                    "id": "htSi",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "팀원, 배변 처리기 전반적 작업  ",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "팀원, 배변 처리기 전반적 작업  ",
+                            "href": null
+                        }
+                    ]
+                },
+                "인원": {
+                    "id": "jGPp",
+                    "type": "number",
+                    "number": 6
+                },
+                "프로젝트 개요": {
+                    "id": "%7C_EQ",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "반려묘 케어를 위한 IoT 기기 프로젝트",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "반려묘 케어를 위한 IoT 기기 프로젝트",
+                            "href": null
+                        }
+                    ]
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "반려묘 케어 IoT 프로젝트",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "반려묘 케어 IoT 프로젝트",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/IoT-fffc9007947f816cbdaff9ff46b2910d",
+            "public_url": "https://magic-chili-c75.notion.site/IoT-fffc9007947f816cbdaff9ff46b2910d"
+        },
+        {
+            "object": "page",
+            "id": "fffc9007-947f-8182-962c-d945f9941edc",
+            "created_time": "2024-09-23T23:58:00.000Z",
+            "last_edited_time": "2024-12-17T05:40:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            },
+            "cover": null,
+            "icon": null,
+            "parent": {
+                "type": "database_id",
+                "database_id": "fffc9007-947f-8124-b1b5-ed9bc4e7d1f7"
+            },
+            "archived": false,
+            "in_trash": false,
+            "properties": {
+                "WebPost": {
+                    "id": "%3DTz%5D",
+                    "type": "checkbox",
+                    "checkbox": true
+                },
+                "기간": {
+                    "id": "ZJjp",
+                    "type": "date",
+                    "date": null
+                },
+                "기술스택": {
+                    "id": "hHO%7B",
+                    "type": "multi_select",
+                    "multi_select": [
+                        {
+                            "id": "0304e940-e49d-414f-b14d-8c3694399b91",
+                            "name": "JavaScript",
+                            "color": "green"
+                        },
+                        {
+                            "id": "c6d5e32a-594c-4fd2-97fe-e3705798d2ab",
+                            "name": "Vue.js",
+                            "color": "red"
+                        },
+                        {
+                            "id": "34be1814-0a30-43fd-892e-9053b8325027",
+                            "name": "Python",
+                            "color": "blue"
+                        },
+                        {
+                            "id": "6f35de71-5f7a-4ec7-9a23-cfbe5e566700",
+                            "name": "Socket",
+                            "color": "purple"
+                        },
+                        {
+                            "id": "64332b2c-4937-425c-8b01-a742343c7145",
+                            "name": "Linux",
+                            "color": "pink"
+                        }
+                    ]
+                },
+                "담당역할": {
+                    "id": "htSi",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "팀장, CCTV와 서버 연결, RC카 메커니즘 제작",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "팀장, CCTV와 서버 연결, RC카 메커니즘 제작",
+                            "href": null
+                        }
+                    ]
+                },
+                "인원": {
+                    "id": "jGPp",
+                    "type": "number",
+                    "number": 6
+                },
+                "프로젝트 개요": {
+                    "id": "%7C_EQ",
+                    "type": "rich_text",
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "OOO 기능을 통해 OOO서비스를 제공하는 프로젝트입니다.\n(누구를 대상으로 어떤 핵심기능을 제공하는지 프로젝트 특성 한 줄 소개)",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "OOO 기능을 통해 OOO서비스를 제공하는 프로젝트입니다.\n(누구를 대상으로 어떤 핵심기능을 제공하는지 프로젝트 특성 한 줄 소개)",
+                            "href": null
+                        }
+                    ]
+                },
+                "Name": {
+                    "id": "title",
+                    "type": "title",
+                    "title": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": "응급 출동 RC카 프로젝트맨 첫 이미지가 썸네일 이미지가 됩니다. ",
+                                "link": null
+                            },
+                            "annotations": {
+                                "bold": false,
+                                "italic": false,
+                                "strikethrough": false,
+                                "underline": false,
+                                "code": false,
+                                "color": "default"
+                            },
+                            "plain_text": "응급 출동 RC카 프로젝트맨 첫 이미지가 썸네일 이미지가 됩니다. ",
+                            "href": null
+                        }
+                    ]
+                }
+            },
+            "url": "https://www.notion.so/RC-fffc9007947f8182962cd945f9941edc",
+            "public_url": "https://magic-chili-c75.notion.site/RC-fffc9007947f8182962cd945f9941edc"
+        }
+    ],
+    "next_cursor": null,
+    "has_more": false,
+    "type": "page_or_database",
+    "page_or_database": {},
+    "developer_survey": "https://notionup.typeform.com/to/bllBsoI4?utm_source=postman",
+    "request_id": "90989ba3-cb2f-46b1-8c25-45c278afdc10"
+}
