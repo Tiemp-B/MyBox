@@ -7,6 +7,7 @@
 |[1234](https://www.acmicpc.net/problem/1234)|G.II|크리스마스 트리리|수학, DP, 조합론| 
 |[1244](https://www.acmicpc.net/problem/1244)|S.IV|스위치 켜고 끄기|시뮬레이션| 
 |[1284](https://www.acmicpc.net/problem/1284)|B.III|집 주소|수학, 구현| 
+|[1380](https://www.acmicpc.net/problem/1380)|S.V|귀걸이|구현, 문자열| 
 |[1516](https://www.acmicpc.net/problem/1516)|G.III|게임 개발| DP,위상정렬,그래프|  
 |[1588](https://www.acmicpc.net/problem/1588)|G.I|수열|DP-DivideConcour|
 |[2010](https://www.acmicpc.net/problem/2010)|B.III|플러그|수학|
@@ -17,6 +18,7 @@
 |[3003](https://www.acmicpc.net/problem/3003)|B.V|킹, 퀸, 룩, 비숍, 나이트, 폰|수학, 구현| 
 |[4991](https://www.acmicpc.net/problem/4991)|G.I|로봇청소기|그래프, 브루트포스, BFS, BitMask|
 |[5430](https://www.acmicpc.net/problem/5430)|G.V|AC|시뮬, 자료 구조|
+|[9243](https://www.acmicpc.net/problem/9243)|B.II|파일 완전 삭제|문자열|
 |[10798](https://www.acmicpc.net/problem/10798)|B.I|세로읽기|구현, 문자열|
 |[10874](https://www.acmicpc.net/problem/10874)|B.III|이교수님의 시험|구현|
 |[11022](https://www.acmicpc.net/problem/11022)|B.V|A+B -8|구현, 수학|
