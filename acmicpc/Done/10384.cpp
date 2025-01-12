@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -9,10 +10,8 @@ void func(int T)
 	getline(cin, str);
 
 	int ans = 31;
-	int box[26];
-
-	for (int i = 0; i < 26; i++)
-		box[i] = 1;
+	
+	vector<int> box(26, 1);
 
 	for (auto c : str)
 	{
