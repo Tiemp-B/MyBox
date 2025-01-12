@@ -21,6 +21,7 @@
 |[9243](https://www.acmicpc.net/problem/9243)|B.II|파일 완전 삭제|문자열|
 |[10798](https://www.acmicpc.net/problem/10798)|B.I|세로읽기|구현, 문자열|
 |[10874](https://www.acmicpc.net/problem/10874)|B.III|이교수님의 시험|구현|
+|[10384](https://www.acmicpc.net/problem/10384)|B.V|팬그램|구현, 문자열|
 |[11022](https://www.acmicpc.net/problem/11022)|B.V|A+B -8|구현, 수학|
 |[11201](https://www.acmicpc.net/problem/11021)|B.V|A+B -7|구현, 수학|
 |[11580](https://www.acmicpc.net/problem/11580)|B.I|Footprint|시뮬레이션|
