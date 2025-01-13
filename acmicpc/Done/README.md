@@ -35,6 +35,7 @@
 |[15720](https://www.acmicpc.net/problem/15720)|S.V|카우버거|수학, 그리디|
 |[15781](https://www.acmicpc.net/problem/15781)|B.III|헬멧과 조끼|수학, 구현|
 |[15874](https://www.acmicpc.net/problem/15874)|B.II|Caesar Cipher|구현, 문자열|
+|[15885](https://www.acmicpc.net/problem/15885)|B.V|고장난 시계|수학|
 |[16430](https://www.acmicpc.net/problem/16430)|B.V|톰과 제리|수학|
 |[17202](https://www.acmicpc.net/problem/17202)|B.I|핸드폰 번호 궁합|구현, 문자열|
 |[18242](https://www.acmicpc.net/problem/18242)|B.IV|네모네모 시력감사|구현, 애드 혹|
