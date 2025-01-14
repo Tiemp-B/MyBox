@@ -4,6 +4,7 @@
 |번호|랭크|제목|카테고리|
 |:---|---|---:|------:|
 |[1106](https://www.acmicpc.net/problem/1106)|G.IV|호텔|DP-냅색|  
+|[1198](https://www.acmicpc.net/problem/1198)|B.II|삼각형으로 자르기기|수학, 브루트포스, 기하학|  
 |[1234](https://www.acmicpc.net/problem/1234)|G.II|크리스마스 트리리|수학, DP, 조합론| 
 |[1244](https://www.acmicpc.net/problem/1244)|S.IV|스위치 켜고 끄기|시뮬레이션| 
 |[1284](https://www.acmicpc.net/problem/1284)|B.III|집 주소|수학, 구현| 
