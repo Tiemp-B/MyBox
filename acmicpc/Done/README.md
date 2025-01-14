@@ -40,9 +40,11 @@
 |[17202](https://www.acmicpc.net/problem/17202)|B.I|핸드폰 번호 궁합|구현, 문자열|
 |[18242](https://www.acmicpc.net/problem/18242)|B.IV|네모네모 시력감사|구현, 애드 혹|
 |[18766](https://www.acmicpc.net/problem/18766)|B.I|카드 바꿔치기|구현, 정렬|
+|[23056](https://www.acmicpc.net/problem/23056)|B.IV|참가자 명단|구현, 정렬|
 |[23972](https://www.acmicpc.net/problem/23972)|B.III|악마의 제안|수학|
 |[24263](https://www.acmicpc.net/problem/24263)|B.IV|녹색거탑|수학, 사칙연산|
 |[24723](https://www.acmicpc.net/problem/24723)|B.IV|알고리즘수업 - 수행시간 2|구현, 시뮬레이션|
+|[25709](https://www.acmicpc.net/problem/25709)|B.III|1 빼기|구현, 그리디|
 |[27512](https://www.acmicpc.net/problem/27512)|B.II|스네이크|수학, 애드 혹, 사칙연산|
 |[27964](https://www.acmicpc.net/problem/27694)|S.V|콰트로치즈피자|구현, 자료구조, 문자열|
 |[30873](https://www.acmicpc.net/problem/30873)|S.V|Hanyang PopularityExceeding...|그리디, 구현, HCPC|

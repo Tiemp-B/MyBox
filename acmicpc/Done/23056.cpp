@@ -6,8 +6,8 @@ using namespace std;
 struct cmp{
     bool operator()(const string &a, const string &b) const {
         if (a.length() == b.length())
-            return a < b;
-        return a.length() < b.length();
+            return a < b; // 사전순
+        return a.length() < b.length(); // 길이순 
     }
 };
 
