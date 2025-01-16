@@ -28,6 +28,7 @@
 |[11580](https://www.acmicpc.net/problem/11580)|B.I|Footprint|시뮬레이션|
 |[11637](https://www.acmicpc.net/problem/11637)|S.V|인기 투표|구현현|
 |[11723](https://www.acmicpc.net/problem/11723)|S.V|집합|bitmask, 구현|
+|[12813](https://www.acmicpc.net/problem/12813)|B.II|이진수 연산|문자열|
 |[12865](https://www.acmicpc.net/problem/12865)|G.V|평범한 배낭| DP-냅색|
 |[14940](https://www.acmicpc.net/problem/14940)|S.I|쉬운 최단거리| 그래프 이론, 그래프 탐색, BFS|
 |[14568](https://www.acmicpc.net/problem/14568)|B.III|2017 연세대학교 프로그래밍 경시대회| 수학, 부루트포스|
@@ -39,6 +40,7 @@
 |[15885](https://www.acmicpc.net/problem/15885)|B.V|고장난 시계|수학|
 |[16430](https://www.acmicpc.net/problem/16430)|B.V|톰과 제리|수학|
 |[17202](https://www.acmicpc.net/problem/17202)|B.I|핸드폰 번호 궁합|구현, 문자열|
+|[17466](https://www.acmicpc.net/problem/17466)|B.II|N! mod P (1)|수학, 정수론|
 |[18242](https://www.acmicpc.net/problem/18242)|B.IV|네모네모 시력감사|구현, 애드 혹|
 |[18766](https://www.acmicpc.net/problem/18766)|B.I|카드 바꿔치기|구현, 정렬|
 |[23056](https://www.acmicpc.net/problem/23056)|B.IV|참가자 명단|구현, 정렬|
