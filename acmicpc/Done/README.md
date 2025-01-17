@@ -13,6 +13,7 @@
 |[1588](https://www.acmicpc.net/problem/1588)|G.I|수열|DP-DivideConcour|
 |[2010](https://www.acmicpc.net/problem/2010)|B.III|플러그|수학|
 |[2066](https://www.acmicpc.net/problem/2066)|G.I|카드놀이|DP-메모이제이션|
+|[2828](https://www.acmicpc.net/problem/2828)|S.V|사과 담기 게임|구현, 그리디|
 |[2579](https://www.acmicpc.net/problem/2579)|S.III|계단오르기|DP-계단| 
 |[2741](https://www.acmicpc.net/problem/2741)|V.V|N 찍기|구현| 
 |[2702](https://www.acmicpc.net/problem/2702)|B.II|초6 수학|수학, 부르트포스| 
@@ -43,6 +44,7 @@
 |[17466](https://www.acmicpc.net/problem/17466)|B.II|N! mod P (1)|수학, 정수론|
 |[18242](https://www.acmicpc.net/problem/18242)|B.IV|네모네모 시력감사|구현, 애드 혹|
 |[18766](https://www.acmicpc.net/problem/18766)|B.I|카드 바꿔치기|구현, 정렬|
+|[28282](https://www.acmicpc.net/problem/28282)|B.V|운명명|수학|
 |[23056](https://www.acmicpc.net/problem/23056)|B.IV|참가자 명단|구현, 정렬|
 |[23972](https://www.acmicpc.net/problem/23972)|B.III|악마의 제안|수학|
 |[24263](https://www.acmicpc.net/problem/24263)|B.IV|녹색거탑|수학, 사칙연산|
