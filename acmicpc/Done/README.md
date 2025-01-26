@@ -44,7 +44,7 @@
 |[17466](https://www.acmicpc.net/problem/17466)|B.II|N! mod P (1)|수학, 정수론|
 |[18242](https://www.acmicpc.net/problem/18242)|B.IV|네모네모 시력감사|구현, 애드 혹|
 |[18766](https://www.acmicpc.net/problem/18766)|B.I|카드 바꿔치기|구현, 정렬|
-|[22115](https://www.acmicpc.net/problem/22115)|G.V||DP, knapsack|
+|[22115](https://www.acmicpc.net/problem/22115)|G.V|창영이와 커피|DP, knapsack|
 |[28282](https://www.acmicpc.net/problem/28282)|B.V|운명명|수학|
 |[23056](https://www.acmicpc.net/problem/23056)|B.IV|참가자 명단|구현, 정렬|
 |[23972](https://www.acmicpc.net/problem/23972)|B.III|악마의 제안|수학|
