@@ -5,6 +5,7 @@
         "cstdlib": "cpp",
         "9251.C": "cpp",
         "tempCodeRunnerFile.C": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "cmath": "cpp"
     }
 }
