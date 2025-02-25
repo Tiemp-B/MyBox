@@ -1,76 +1,72 @@
 #include <iostream>
-#include <set>
-#include <vector>
-#include <unordered_set>
+#include <unordered_map>
 
 using namespace std;
 
-
-string addOne(string str){
-    string ret(str.size()+1, '0');
-    int carry = 0;
-    
-
-
-    return ret;
+struct element{
+    int value;
+    unordered_map<int, int> loc;
 };
 
+string itos(int a){
+    string ret = "";
+    while(a>0){
+        ret += (a%10) +'0';
+        a /= 10;
+    }
+    return ret;
+}
+
 int main(){
-    int N;
+    int N; 
     cin >> N;
-    set<string> st;
-    vector<string> box;
+
+    element box[1000];
+    int header[10]={-1, -1, -1, -1, -1, -1, -1, -1, -1, -1};
     for(int i=0; i<N; i++){
-        char temp;
-        cin >> temp;
-        cout << temp << endl;
-        string t = "";
-        
-        int cnt = box.size();
-
-        for(int i=0; i<cnt ;i++){
-            t = "";
-            t += box[i];
-            t += temp;
-            box.push_back(t);
+        cin >> box[i].value;
+        if(header[box[i].value] == -1)
+            header[box[i].value] = i;
+        for(int j=0; j < i; j++){
+            if(box[j].loc.find(box[i].value) == box[j].loc.end())
+                box[j].loc[box[i].value] = i;
         }
+    }
 
-        t = "";
-        t += temp;
-        box.push_back(t);
-    }
-    int ans = -1;
+    int ans = 0;
 
-    for(string e : box){
-        st.insert(e);
+    if(header[0] == -1){
+        cout << ans;
+        return 0;
     }
-    int mem[1001]= {};
-    int mp[1001];
-    set<string> mem2[1001];
-    mp[0] = 1;
-    for(int i=1;i<=N; i++){
-        mp[i] = mp[i-1]*10;
-    }
-    mp[0] = 0;
-    for(auto e : st){
-        mem[e.size()]++;
-        mem2[e.size()].insert(e);
-    }
-    int flag;
-    for(int i=1; i<=N; i++){
-        if(mem[i] != mp[i]-mp[i-1]){
-            flag = i;
+
+    ans++;
+
+    while(true){
+        string str = itos(ans);
+        bool flag = false;
+        int head = str.back()-'0';
+        
+        if(header[head] == -1){
             break;
         }
-    }
-    int tt = mp[flag-1];
-    string ans = "";
+        head = header[head];
+        for(int i = str.size()-2; i>=0; i--){
+            if(ans == 15){
 
-    for(int temp = mp[flag-1];temp>0; temp/=10){
-        ans += (temp%10)+'0';
+            }
+            int target = str[i]-'0';
+            if(box[head].loc.find(target) == box[head].loc.end()){
+                flag = true;
+                break;
+            }
+            head = box[head].loc[target];
+        }
+        if(flag)
+            break;
+        ans++;
     }
-    for(auto e : mem2[flag]){
-        cout << e << endl;
-    }
+    cout << ans;
+
     return 0;
 }

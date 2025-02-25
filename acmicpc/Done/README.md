@@ -13,6 +13,7 @@
 |[1588](https://www.acmicpc.net/problem/1588)|G.I|수열|DP-DivideConcour|
 |[2010](https://www.acmicpc.net/problem/2010)|B.III|플러그|수학|
 |[2066](https://www.acmicpc.net/problem/2066)|G.I|카드놀이|DP-메모이제이션|
+|[2206](https://www.acmicpc.net/problem/2206)|G.III|벽 부수고 이동하기|BFS, 그래프 이론, 그래프 탐색|
 |[2166](https://www.acmicpc.net/problem/2166)|G.V|다각형의 면적|기하학, 다각형의 넓이|
 |[2200](https://www.acmicpc.net/problem/2200)|S.III|계산기|수학, 구현|
 |[2828](https://www.acmicpc.net/problem/2828)|S.V|사과 담기 게임|구현, 그리디|

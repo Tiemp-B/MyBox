@@ -6,6 +6,24 @@
         "9251.C": "cpp",
         "tempCodeRunnerFile.C": "cpp",
         "vector": "cpp",
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "ratio": "cpp",
+        "array": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "*.tcc": "cpp",
+        "string": "cpp",
+        "iterator": "cpp",
+        "random": "cpp",
+        "fstream": "cpp",
+        "iomanip": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "sstream": "cpp",
+        "streambuf": "cpp",
+        "system_error": "cpp",
+        "thread": "cpp"
     }
 }
