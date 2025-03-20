@@ -53,6 +53,7 @@ async function getPjtList() {
             };
         });
         // pjtList를 반환
+        console.log(pjtList)
         return pjtList;
     } catch (err) {
         console.error("오류 발생:", err);
@@ -110,7 +111,7 @@ async function getPjt(pjtID) {
             }
         }
 
-        // console.log("페이지 데이터:", page);
+        console.log("페이지 데이터:", page);
         return page; // 결과 반환
     } catch (err) {
         console.error("오류 발생:", err);
@@ -170,7 +171,7 @@ async function getBlock(id) {
     }
 }
 
-// item의 최신 업데이트를 확인하는 함수수
+// item의 최신 업데이트를 확인하는 함수
 async function checker(item) {
     const cacheFile = path.join(CACHE_DIR_SIMPLE, `${item["id"]}.json`);
     try {
@@ -200,8 +201,9 @@ async function saveNewData(id){
 
 
 console.log("hi");
-
-// getData();
+// getPjtList();
+getPjt("158c9007-947f-80fa-8b6a-f46ba59bc207");
+//getBlock();
 
 
 

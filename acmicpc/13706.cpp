@@ -2,7 +2,8 @@
 #include <vector>
 #include <string>
 #include <algorithm>
-
+#include <cstdlib>
+#include <cmath>
 using namespace std;
 
 /*
@@ -271,8 +272,6 @@ bigInt binSearch(string target)
 
 void checker()
 {
-    ios::sync_with_stdio(false);
-	cin.tie(0);
     long long i = 1;
     while (true)
     {
@@ -311,6 +310,8 @@ void checker()
 
 int main()
 {
+    ios::sync_with_stdio(false);
+	cin.tie(0);
     // checker();
     // return 0;
     string num;

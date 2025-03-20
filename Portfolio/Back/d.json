@@ -1,0 +1,211 @@
+[
+    {
+        "object": "list", 
+        "results": [
+            {
+                "object": "block", 
+                "id": "15cc9007-947f-80b7-b9f9-d63fd9b22fb4", 
+                "parent": {
+                    "type": "page_id", 
+                    "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"
+                }, 
+                "created_time": "2024-12-14T08:51:00.000Z", 
+                "last_edited_time": "2025-03-14T15:13:00.000Z", 
+                "created_by": {
+                    "object": "user", 
+                    "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+                }, 
+                "last_edited_by": {
+                    "object": "user", 
+                    "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+                }, 
+                "has_children": False, 
+                "archived": False, 
+                "in_trash": False, 
+                "type": "image", 
+                "image": {
+                    "caption": [], 
+                    "type": "file", 
+                    "file": {
+                        "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/c92bccdf-c479-4b60-a1ca-7a4d002e8d9e/9c7b5811-913c-40d3-ae6f-849684b2685b/2d70667e-344e-416d-862a-e77d18fc4251.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VUXJJGFP%2F20250314%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250314T153043Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDVy2YRBcD2TS%2FIOvTz3SqaQaQqHaijuoQA0cpCn8YqXQIgYY0spsai10CJkdacXGlC08gVbKzfgLghX2vX%2F4jp%2F9wqiAQI8P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDBvHDFJURDN38zazUSrcA6h4TNHZ7ZBwSz42m5LYxDzLDSqeqEF8CZ88QxE2tCMq%2FgTAF4uPndtUk8kX2Jh6RXg3Th%2FPlnMWWqevzRa5Nwrn9BUic4gKr1ZrthxWtgFppkd%2FebcDC8wJkbmfaQPq6dOB890rnZ3dO42oRI9ZSYEicoXOSq2FEZsT%2BRMWMWZJeu5mQRxiTaDOPEsIY0y8Q5CZ14WfuMiwM8OeFXEKFB5u%2BiTd4JdnCmtkpj6bsBhcgErSo2EnHG1%2FrtNXygtP4ndUF5AMnkpL86eC%2FSTHF1rpcy0JYAd7UVHcT6wUSnDy1ZEy90MhdFpygZwUGzqdqLHdSuz5eMXTI%2BMTOS2PWVBxx2waEA8OXJR2p%2BMYFss0bNd1AOXL6DtUakpW%2BQuQQumHyXewUH1fxtuUWECx2TQArkWfzBWRIWxRnAWYDv3GMxV%2B0k2Zzc8DCy6ZXkx7wPE%2FMOX8mId%2F2XI1PywU6Mghty%2Btc5IiOj3cAwIQyen71B6Mb9xMtEDJuxvUmG3lGddEbgyQG7Ibs5GlGX3APA9Eb4pMXSdVOrR8M2rKT5b6JBC3loICKldJITjUjQ9YfebdObPZgmeSAg9nNvQmsXuNXUZCGWe17gXra%2F71l2YPooUmARjyuRRevzXGMKn40L4GOqUBwKPjaNMcXmBLuilKT7Vj1q6b9i07NE9Ze26HtVekKXqJNGiOfdV%2BCjW24i1KB3yqXGh55iRdVySU4pbQYIOzUVogdZ3J1ZeDYCfmL2YXowKVFzxUL3WKNiXBkSC5BNe3qAK8YyHUVmeByLe6sP58ShvOV8NbRcQApACBC1XLFui%2F5eLl2rjX5xwc1AoNvoAvslWNuCGJ8%2FRerSUjXmaClX3QBDxD&X-Amz-Signature=f838fbde6a5e9bf5fe431782c11fbec85263e9035f795a704720325abf667078&X-Amz-SignedHeaders=host&x-id=GetObject", 
+                        "expiry_time": "2025-03-14T16:30:43.975Z"
+                    }
+                }
+            }, 
+            {
+                "object": "block", 
+                "id": "055937a8-d336-48dd-82fa-34f2c91b1379", 
+                "parent": {
+                    "type": "page_id", 
+                    "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"
+                }, 
+                "created_time": "2024-12-10T14:46:00.000Z", 
+                "last_edited_time": "2024-12-10T14:46:00.000Z", 
+                "created_by": {
+                    "object": "user", 
+                    "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+                }, 
+                "last_edited_by": {
+                    "object": "user", 
+                    "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+                }, 
+                "has_children": False, 
+                "archived": False, 
+                "in_trash": False, 
+                "type": "paragraph", 
+                "paragraph": {
+                    "rich_text": [], 
+                    "color": "default"
+                }
+            }, 
+            {
+                "object": "block", 
+                "id": "8b76f1d0-deaa-48ea-8431-1bf408bc23b1", 
+                "parent": {
+                    "type": "page_id", 
+                    "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"
+                }, 
+                "created_time": "2024-12-10T14:46:00.000Z", 
+                "last_edited_time": "2024-12-14T09:18:00.000Z", 
+                "created_by": {
+                    "object": "user", 
+                    "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+                }, 
+                "last_edited_by": {
+                    "object": "user", 
+                    "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+                }, 
+                "has_children": False, 
+                "archived": False, 
+                "in_trash": False, 
+                "type": "paragraph", 
+                "paragraph": {
+                    "rich_text": [
+                        {
+                            "type": "text", 
+                            "text": {
+                                "content": "✔️ ", 
+                                "link": None
+                            }, 
+                            "annotations": {
+                                "bold": False, 
+                                "italic": False, 
+                                "strikethrough": False,
+                                "underline": False, 
+                                "code": False, 
+                                "color": "default"
+                            }, 
+                            "plain_text": "✔️ ", 
+                            "href": None
+                        }, 
+                        {
+                            "type": "text", 
+                            "text": {
+                                "content": "프로젝트 개요 ", 
+                                "link": None
+                            }, 
+                            "annotations": {
+                                "bold": True, 
+                                "italic": False, 
+                                "strikethrough": False, 
+                                "underline": False, 
+                                "code": False, 
+                                "color": "default"
+                            }, 
+                            "plain_text": "프로젝트 개요 ", 
+                            "href": None
+                        }
+                    ], 
+                    "color": "default"
+                }
+            }, 
+            {
+                "object": "block", 
+                "id": "ff750ae4-d9a5-40eb-8163-fcb0710f806b", 
+                "parent": {
+                    "type": "page_id", 
+                    "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"
+                }, 
+                "created_time": "2024-12-10T14:46:00.000Z", 
+                "last_edited_time": "2024-12-14T08:58:00.000Z", 
+                "created_by": {
+                    "object": "user", 
+                    "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+                }, 
+                "last_edited_by": {
+                    "object": "user", 
+                    "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+                }, 
+                "has_children": False, 
+                "archived": False, 
+                "in_trash": False, 
+                "type": "paragraph", 
+                "paragraph": {
+                    "rich_text": [
+                        {
+                            "type": "text", 
+                            "text": {
+                                "content": "- 목표: STM32F-103RB 보드에 RTOS를 구현하여 스톱워치를 제작한다.", 
+                                "link": None
+                            }, 
+                            "annotations": {
+                                "bold": False, 
+                                "italic": False, 
+                                "strikethrough": False, 
+                                "underline": False, 
+                                "code": False, 
+                                "color": "default"
+                            }, 
+                            "plain_text": "- 목표: STM32F-103RB 보드에 RTOS를 구현하여 스톱워치를 제작한다.", 
+                            "href": None
+                        }], 
+                    "color": "default"
+                }
+            }, 
+            {
+                "object": "block", 
+                "id": "ce348a2f-2ccf-4d34-8ee4-435dad3b061c", 
+                "parent": {
+                    "type": "page_id", 
+                    "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"
+                }, 
+                "created_time": "2024-12-10T14:46:00.000Z", 
+                "last_edited_time": "2024-12-14T08:58:00.000Z", 
+                "created_by": {
+                    "object": "user",
+                    "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+                }, 
+                "last_edited_by": {
+                    "object": "user", 
+                    "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+                }, 
+                "has_children": False, 
+                "archived": False, 
+                "in_trash": False, 
+                "type": "paragraph", 
+                "paragraph": {
+                    "rich_text": [
+                        {
+                            "type": "text", 
+                            "text": {
+                                "content": "- 배경: ", 
+                                "link": None
+                            }, 
+                            "annotations": {
+                                "bold": False, 
+                                "italic": False, 
+                                "strikethrough": False, 
+                                "underline": False, 
+                                "code": False, 
+                                "color": "default"
+                            }, 
+                            "plain_text": "- 배경: ", 
+                            "href": None
+                        }
+                    ], 
+                    "color": "default"
+                }
+            }, 
+            {"object": "block", "id": "b447f854-457d-4b25-b4ff-be4b2fe6b685", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-14T08:58:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [{"type": "text", "text": {"content": "- 주요 기능:", "link": None}, "annotations": {"bold": False, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "- 주요 기능:", "href": None}], "color": "default"}}, {"object": "block", "id": "15cc9007-947f-8025-99de-ce33bcfc094b", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-14T09:04:00.000Z", "last_edited_time": "2025-03-14T15:04:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": True, "archived": False, "in_trash": False, "type": "bulleted_list_item", "bulleted_list_item": {"rich_text": [{"type": "text", "text": {"content": "시계", "link": None}, "annotations": {"bold": False, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "시계", "href": None}], "color": "default"}}, {"object": "block", "id": "15cc9007-947f-804f-96d8-eeda6965988a", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-14T09:04:00.000Z", "last_edited_time": "2024-12-14T09:18:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": True, "archived": False, "in_trash": False, "type": "bulleted_list_item", "bulleted_list_item": {"rich_text": [{"type": "text", "text": {"content": "스톱 워치", "link": None}, "annotations": {"bold": False, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "스톱 워치", "href": None}], "color": "default"}}, {"object": "block", "id": "27e8aa6f-8d77-4fba-8f08-0b6dd087fb67", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-10T14:46:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [], "color": "default"}}, {"object": "block", "id": "d7fbf9d4-ba1f-40dd-b6b5-6729b8bdf6c4", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-10T14:46:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [], "color": "default"}}, {"object": "block", "id": "dc6778de-95da-487e-af55-b42893620960", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-14T09:18:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [{"type": "text", "text": {"content": "✔️ ", "link": None}, "annotations": {"bold": False, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "✔️ ", "href": None}, {"type": "text", "text": {"content": "사용 기술/이유 ", "link": None}, "annotations": {"bold": True, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "사용 기술/이유 ", "href": None}], "color": "default"}}, {"object": "block", "id": "63242fac-07e3-4276-a3c5-e6bd3c2f3b70", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-14T09:18:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [{"type": "text", "text": {"content": "- 사용 기술: keil uVision\n- 선택 이유: ", "link": None}, "annotations": {"bold": False, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "- 사용 기술: keil uVision\n- 선택 이유: ", "href": None}], "color": "default"}}, {"object": "block", "id": "c1c33bb0-1987-4c85-a562-9cf8b3fc8ffb", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-10T14:46:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [], "color": "default"}}, {"object": "block", "id": "468f3505-edec-4081-bea2-0c2a0404002e", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-14T09:18:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [{"type": "text", "text": {"content": "✔️ ", "link": None}, "annotations": {"bold": False, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "✔️ ", "href": None}, {"type": "text", "text": {"content": "구현 사항 ", "link": None}, "annotations": {"bold": True, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "구현 사항 ", "href": None}], "color": "default"}}, {"object": "block", "id": "0a244e56-1ffd-4622-bbbf-da24b9617972", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-10T14:46:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [{"type": "text", "text": {"content": "- 프로젝트의 중점적인 기능을 기재해주세요.", "link": None}, "annotations": {"bold": False, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "- 프로젝트의 중점적인 기능을 기재해주세요.", "href": None}], "color": "default"}}, {"object": "block", "id": "05667f9b-0c3d-48dd-8dcb-72238777cfb6", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-10T14:46:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [{"type": "text", "text": {"content": "- 프로젝트의 핵심 구현사항을 기술해주세요.", "link": None}, "annotations": {"bold": False, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "- 프로젝트의 핵심 구현사항을 기술해주세요.", "href": None}], "color": "default"}}, {"object": "block", "id": "653a136a-7686-41d1-b089-b75243f93769", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-10T14:46:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [], "color": "default"}}, {"object": "block", "id": "812712e5-0653-4f14-928c-13799bd071f9", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-10T14:46:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [{"type": "text", "text": {"content": "✔️ ", "link": None}, "annotations": {"bold": False, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "✔️ ", "href": None}, {"type": "text", "text": {"content": "문제 해결 사례 ", "link": None}, "annotations": {"bold": True, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "문제 해결 사례 ", "href": None}, {"type": "text", "text": {"content": "선택사항", "link": None}, "annotations": {"bold": True, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "orange_background"}, "plain_text": "선택사항", "href": None}], "color": "default"}}, {"object": "block", "id": "7baba1ed-e64e-4215-b77f-b08530a85fc6", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-10T14:46:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [{"type": "text", "text": {"content": "- 문제:\n- 해결 방법:", "link": None}, "annotations": {"bold": False, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "- 문제:\n- 해결 방법:", "href": None}], "color": "default"}}, {"object": "block", "id": "66c05600-ae86-405a-851e-80f37cb98a2d", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-10T14:46:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [], "color": "default"}}, {"object": "block", "id": "f3a4e0c7-8c90-47aa-ab9e-00567629026f", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-10T14:46:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [{"type": "text", "text": {"content": "✔️ ", "link": None}, "annotations": {"bold": False, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "✔️ ", "href": None}, {"type": "text", "text": {"content": "프로젝트 성과 및 결과 ", "link": None}, "annotations": {"bold": True, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "프로젝트 성과 및 결과 ", "href": None}, {"type": "text", "text": {"content": "필수사항", "link": None}, "annotations": {"bold": True, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "green_background"}, "plain_text": "필수사항", "href": None}], "color": "default"}}, {"object": "block", "id": "8116e9df-b182-448b-a03d-efdc76eacb75", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-10T14:46:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [{"type": "text", "text": {"content": "- 성과:\n- 결과:", "link": None}, "annotations": {"bold": False, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "- 성과:\n- 결과:", "href": None}], "color": "default"}}, {"object": "block", "id": "9a031065-4b2d-447e-ac13-27df39a5a735", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-10T14:46:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [], "color": "default"}}, {"object": "block", "id": "444ce924-d914-4ec3-99e5-9aaa8fb0e883", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-10T14:46:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [{"type": "text", "text": {"content": "✔️ ", "link": None}, "annotations": {"bold": False, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "✔️ ", "href": None}, {"type": "text", "text": {"content": "프로젝트 회고 ", "link": None}, "annotations": {"bold": True, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "프로젝트 회고 ", "href": None}, {"type": "text", "text": {"content": "선택사항", "link": None}, "annotations": {"bold": True, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "orange_background"}, "plain_text": "선택사항", "href": None}], "color": "default"}}, {"object": "block", "id": "c307362b-dfe7-4a0c-9e89-177231c49d86", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-10T14:46:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [{"type": "text", "text": {"content": "- 아쉬웠던 점:\n- 개선 방안:\n- 새롭게 알게 된 지식 및 개발 역량:\n- 깨달은 점:", "link": None}, "annotations": {"bold": False, "italic": False, "strikethrough": False, "underline": False, "code": False, "color": "default"}, "plain_text": "- 아쉬웠던 점:\n- 개선 방안:\n- 새롭게 알게 된 지식 및 개발 역량:\n- 깨달은 점:", "href": None}], "color": "default"}}, {"object": "block", "id": "46e340a3-cc53-439e-bcec-2a1307d70aed", "parent": {"type": "page_id", "page_id": "158c9007-947f-80fa-8b6a-f46ba59bc207"}, "created_time": "2024-12-10T14:46:00.000Z", "last_edited_time": "2024-12-10T14:46:00.000Z", "created_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "last_edited_by": {"object": "user", "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"}, "has_children": False, "archived": False, "in_trash": False, "type": "paragraph", "paragraph": {"rich_text": [], "color": "default"}}], "next_cursor": None, "has_more": False, "type": "block", "block": {}, "request_id": "3c6c77c4-4bd8-44d6-96ef-98032ca638b7"}
+
+]

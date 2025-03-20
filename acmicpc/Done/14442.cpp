@@ -31,8 +31,6 @@ void init(){
     cin >> N >> M >> K;
     memset(mem, I_MAX, sizeof(mem));  // 전체 초기화
 
-
-
     for(int i=0; i<N; i++){
         string s;
         cin >> s;

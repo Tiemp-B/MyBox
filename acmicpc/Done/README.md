@@ -18,9 +18,12 @@
 |[2200](https://www.acmicpc.net/problem/2200)|S.III|계산기|수학, 구현|
 |[2828](https://www.acmicpc.net/problem/2828)|S.V|사과 담기 게임|구현, 그리디|
 |[2579](https://www.acmicpc.net/problem/2579)|S.III|계단오르기|DP-계단| 
+|[2590](https://www.acmicpc.net/problem/2590)|G.IV|색종이|구현, 그리디, 많은 조건 분기| 
 |[2741](https://www.acmicpc.net/problem/2741)|V.V|N 찍기|구현| 
 |[2702](https://www.acmicpc.net/problem/2702)|B.II|초6 수학|수학, 부르트포스| 
+|[2979](https://www.acmicpc.net/problem/2979)|B.II|트럭 주차|구현, 시뮬레이션| 
 |[3003](https://www.acmicpc.net/problem/3003)|B.V|킹, 퀸, 룩, 비숍, 나이트, 폰|수학, 구현| 
+|[3613](https://www.acmicpc.net/problem/3613)|S.III|Java vs C++|구현, 문자열, 파싱, 많은 조건 분기| 
 |[4991](https://www.acmicpc.net/problem/4991)|G.I|로봇청소기|그래프, 브루트포스, BFS, BitMask|
 |[5430](https://www.acmicpc.net/problem/5430)|G.V|AC|시뮬, 자료 구조|
 |[9243](https://www.acmicpc.net/problem/9243)|B.II|파일 완전 삭제|문자열|
@@ -37,6 +40,7 @@
 |[11723](https://www.acmicpc.net/problem/11723)|S.V|집합|bitmask, 구현|
 |[12813](https://www.acmicpc.net/problem/12813)|B.II|이진수 연산|문자열|
 |[12865](https://www.acmicpc.net/problem/12865)|G.V|평범한 배낭| DP-냅색|
+|[14442](https://www.acmicpc.net/problem/14442)|G.III|벽 부수고 이동하기 2|BFS, 그래프 이론, 그래프 탐색|
 |[14568](https://www.acmicpc.net/problem/14568)|B.III|2017 연세대학교 프로그래밍 경시대회| 수학, 부루트포스|
 |[14720](https://www.acmicpc.net/problem/14720)|B.II|우유 축제|구현, 그리디 알고리즘즘|
 |[14940](https://www.acmicpc.net/problem/14940)|S.I|쉬운 최단거리| 그래프 이론, 그래프 탐색, BFS|
