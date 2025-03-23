@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         PROJECT_DIR = "Portfolio"
-        COMPOSE_CMD = "docker-compose -f ${PROJECT_DIR}docker-compose.yml"
+        COMPOSE_CMD = "/usr/bin/docker-compose -f ${PROJECT_DIR}/docker-compose.yml"
     }
 
     stages {
@@ -18,7 +18,7 @@ pipeline {
         stage('Build Docker Images') {
             steps {
                 echo "Building Docker image of FE, BE"
-                sh '${COMPOSE_CMD} build frontend backend'
+                sh "${COMPOSE_CMD} build frontend backend"
             }
         }
 
@@ -31,7 +31,7 @@ pipeline {
         stage('Deploy Updated Containers') {
             steps {
                 echo "Restarting latest container"
-                sh '${COMPOSE_CMD} up -d frontend backend'
+                sh "${COMPOSE_CMD} up -d frontend backend"
             }
         }
     }
