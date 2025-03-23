@@ -30,7 +30,7 @@ pipeline {
 
         stage('Deploy Updated Containers') {
             steps {
-                echo "Restarting latest container2"
+                echo "Restarting latest container3"
                 sh "${COMPOSE_CMD} up -d frontend backend"
             }
         }
