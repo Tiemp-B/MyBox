@@ -21,9 +21,17 @@ services:
     networks:
       - app_net
 
+  backend:
+    build: ./backend
+    container_name: backend
+    expose:
+      - 3308
+    networks:
+      - app_net
+
   nginx:
     image: nginx:latest
-    constainer_name: nginx
+    container_name: nginx
     ports:
       - "80:80"
       - "443:443"
