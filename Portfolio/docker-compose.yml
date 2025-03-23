@@ -59,7 +59,7 @@ services:
       -d tiemp.kro.kr"
 
 volumes:
-  jenkins_home
+  jenkins_home: {}
 
 networks:
   app_net:
