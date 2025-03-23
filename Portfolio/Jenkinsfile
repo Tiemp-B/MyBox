@@ -1,0 +1,38 @@
+pipeline {
+    agent any
+    
+    environment {
+        PROJECT_DIR = "Portfolio"
+        COMPOSE_CMD = "docker-compose -f ${PROJECT_DIR}docker-compose.yml"
+    }
+
+    stages {
+        stage('Clone Repository') {
+            steps {
+                dir("${env.PROJECT_DIR}"){
+                    echo "Cloning from git..."  
+                }
+            }
+        }
+
+        stage('Build Docker Images') {
+            steps {
+                echo "Building Docker image of FE, BE"
+                sh '${COMPOSE_CMD} build frontend backend'
+            }
+        }
+
+        stage('Stop and Remove Existing container') {
+            steps {
+                sh "${COMPOSE_CMD} rm -sf frontend backend"
+            }
+        }
+
+        stage('Deploy Updated Containers') {
+            steps {
+                echo "Restarting latest container"
+                sh '${COMPOSE_CMD} up -d frontend backend'
+            }
+        }
+    }
+}
