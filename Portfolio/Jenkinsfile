@@ -1,16 +1,16 @@
 pipeline {
     agent any
-    
+
     environment {
         PROJECT_DIR = "Portfolio"
-        COMPOSE_CMD = "/usr/bin/docker-compose -f ${PROJECT_DIR}/docker-compose.yml"
+        COMPOSE_CMD = "/var/jenkins_home/bin/docker-compose -f ${PROJECT_DIR}/docker-compose.yml"
     }
 
     stages {
         stage('Clone Repository') {
             steps {
-                dir("${env.PROJECT_DIR}"){
-                    echo "Cloning from git..."  
+                dir("${env.PROJECT_DIR}") {
+                    echo "Cloning from git..."
                 }
             }
         }
