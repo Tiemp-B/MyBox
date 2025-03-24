@@ -10,9 +10,9 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 dir("${env.PROJECT_DIR}") {
+                    echo "Cloning from git..."
                     sh 'rm -rf Portfolio'  
                     sh 'git clone https://github.com/Tiemp-B/MyBox Portfolio'
-                    echo "Cloning from git..."
                 }
             }
         }
@@ -26,6 +26,7 @@ pipeline {
 
         stage('Stop and Remove Existing container') {
             steps {
+                echo "removing old containers"
                 sh "${COMPOSE_CMD} rm -sf frontend backend"
             }
         }
