@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         PROJECT_DIR = "Portfolio"
-        COMPOSE_CMD = "/var/jenkins_home/bin/docker-compose -f ${PROJECT_DIR}/docker-compose.yml"
+        COMPOSE_CMD = "/usr/local/bin/docker-compose -f ${PROJECT_DIR}/docker-compose.yml"
     }
 
     stages {
