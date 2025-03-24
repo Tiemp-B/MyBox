@@ -10,6 +10,8 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 dir("${env.PROJECT_DIR}") {
+                    sh 'rm -rf Portfolio'  
+                    sh 'git clone https://github.com/Tiemp-B/MyBox Portfolio'
                     echo "Cloning from git..."
                 }
             }
