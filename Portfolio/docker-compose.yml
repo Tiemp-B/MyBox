@@ -14,7 +14,7 @@ services:
       - app_net
 
   frontend:
-    build: ./frontend
+    build: ./Front
     container_name: frontend
     expose:
       - "80"
@@ -22,7 +22,7 @@ services:
       - app_net
 
   backend:
-    build: ./backend
+    build: ./Back
     container_name: backend
     expose:
       - 3308
