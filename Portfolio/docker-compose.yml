@@ -30,7 +30,6 @@ services:
       - app_net
 
   nginx:
-    #image: nginx:latest
     image: ./nginx
     container_name: nginx
     depends_on:
