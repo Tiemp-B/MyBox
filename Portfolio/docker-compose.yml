@@ -30,7 +30,8 @@ services:
       - app_net
 
   nginx:
-    image: nginx:latest
+    #image: nginx:latest
+    image: ./nginx
     container_name: nginx
     depends_on:
       - frontend
@@ -39,7 +40,7 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx:/etc/nginx:ro
       - ./certbot/conf:/etc/letsencrypt
       - ./certbot/www:/var/www/certbot
     networks:

@@ -19,15 +19,8 @@ pipeline {
 
         stage('Build Docker Images') {
             steps {
-                echo "Building Docker image of FE, BE"
-                sh "${COMPOSE_CMD} build frontend backend"
-            }
-        }
-
-        stage('Initate nginx container') {
-            steps {
-                echo "nginx container init..."
-                sh "${COMPOSE_CMD} up -d nginx"
+                echo "Building Docker image of FE, BE, nginx"
+                sh "${COMPOSE_CMD} build frontend backend nginx"
             }
         }
 
