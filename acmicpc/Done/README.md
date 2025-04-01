@@ -16,6 +16,7 @@
 |[2206](https://www.acmicpc.net/problem/2206)|G.III|벽 부수고 이동하기|BFS, 그래프 이론, 그래프 탐색|
 |[2166](https://www.acmicpc.net/problem/2166)|G.V|다각형의 면적|기하학, 다각형의 넓이|
 |[2200](https://www.acmicpc.net/problem/2200)|S.III|계산기|수학, 구현|
+|[2417](https://www.acmicpc.net/problem/2417)|S.IV|정수 제곱근|수학, 이분탐색|
 |[2828](https://www.acmicpc.net/problem/2828)|S.V|사과 담기 게임|구현, 그리디|
 |[2579](https://www.acmicpc.net/problem/2579)|S.III|계단오르기|DP-계단| 
 |[2590](https://www.acmicpc.net/problem/2590)|G.IV|색종이|구현, 그리디, 많은 조건 분기| 
@@ -24,6 +25,8 @@
 |[2979](https://www.acmicpc.net/problem/2979)|B.II|트럭 주차|구현, 시뮬레이션| 
 |[3003](https://www.acmicpc.net/problem/3003)|B.V|킹, 퀸, 룩, 비숍, 나이트, 폰|수학, 구현| 
 |[3613](https://www.acmicpc.net/problem/3613)|S.III|Java vs C++|구현, 문자열, 파싱, 많은 조건 분기| 
+|[4291](https://www.acmicpc.net/problem/4291)|S.IV|나무 블록|구현, 자료 구조|
+|[4312](https://www.acmicpc.net/problem/4312)|S.III|3의 제곱|수학, 비트마스킹, 임의 정밀도/ 큰 수 연산|
 |[4991](https://www.acmicpc.net/problem/4991)|G.I|로봇청소기|그래프, 브루트포스, BFS, BitMask|
 |[5430](https://www.acmicpc.net/problem/5430)|G.V|AC|시뮬, 자료 구조|
 |[9243](https://www.acmicpc.net/problem/9243)|B.II|파일 완전 삭제|문자열|
@@ -40,6 +43,7 @@
 |[11723](https://www.acmicpc.net/problem/11723)|S.V|집합|bitmask, 구현|
 |[12813](https://www.acmicpc.net/problem/12813)|B.II|이진수 연산|문자열|
 |[12865](https://www.acmicpc.net/problem/12865)|G.V|평범한 배낭| DP-냅색|
+|[12873](https://www.acmicpc.net/problem/12873)|S.III|기념품품| 구현, 자료구조, 시뮬레이션, 큐|
 |[14442](https://www.acmicpc.net/problem/14442)|G.III|벽 부수고 이동하기 2|BFS, 그래프 이론, 그래프 탐색|
 |[14568](https://www.acmicpc.net/problem/14568)|B.III|2017 연세대학교 프로그래밍 경시대회| 수학, 부루트포스|
 |[14720](https://www.acmicpc.net/problem/14720)|B.II|우유 축제|구현, 그리디 알고리즘즘|
@@ -58,6 +62,7 @@
 |[18766](https://www.acmicpc.net/problem/18766)|B.I|카드 바꿔치기|구현, 정렬|
 |[22115](https://www.acmicpc.net/problem/22115)|G.V|창영이와 커피|DP, knapsack|
 |[25631](https://www.acmicpc.net/problem/25631)|S.V|마트료시카 합치기|자료구조, 그리디, 정렬|
+|[26517](https://www.acmicpc.net/problem/26517)|S.V|연속인가?|수학, 미적분학|
 |[28282](https://www.acmicpc.net/problem/28282)|B.V|운명명|수학|
 |[23056](https://www.acmicpc.net/problem/23056)|B.IV|참가자 명단|구현, 정렬|
 |[23972](https://www.acmicpc.net/problem/23972)|B.III|악마의 제안|수학|

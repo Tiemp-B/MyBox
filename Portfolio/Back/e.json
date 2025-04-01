@@ -1,163 +1,165 @@
-{
-    'object': 'page', 
-    'id': '167c9007-947f-80b4-8b46-f525b21976cc', 
-    'created_time': '2024-12-25T14:46:00.000Z', 
-    'last_edited_time': '2024-12-29T12:37:00.000Z', 
-    'created_by': {
-        'object': 'user', 
-        'id': '9be8ea32-395c-4dba-9558-f0d2add6f6cf'
+[{
+    "object": "page", 
+    "id": "167c9007-947f-80b4-8b46-f525b21976cc", 
+    "created_time": "2024-12-25T14:46:00.000Z", 
+    "last_edited_time": "2024-12-29T12:37:00.000Z", 
+    "created_by": {
+        "object": "user", 
+        "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
     }, 
-    'last_edited_by': {
-        'object': 'user', 
-        'id': '9be8ea32-395c-4dba-9558-f0d2add6f6cf'
+    "last_edited_by": {
+        "object": "user", 
+        "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
     }, 
-    'cover': None, 
-    'icon': None, 
-    'parent': {
-        'type': 'database_id', 
-        'database_id': 'fffc9007-947f-8124-b1b5-ed9bc4e7d1f7'
+    "cover": None, 
+    "icon": None, 
+    "parent": {
+        "type": "database_id", 
+        "database_id": "fffc9007-947f-8124-b1b5-ed9bc4e7d1f7"
     }, 
-    'archived': False, 
-    'in_trash': False, 
-    'properties': {
-        'WebPost': {
-            'id': '%3DTz%5D', 
-            'type': 'checkbox', 
-            'checkbox': True
+    "archived": false, 
+    "in_trash": false, 
+    "properties": {
+        "WebPost": {
+            "id": "%3DTz%5D", 
+            "type": "checkbox", 
+            "checkbox": True
         }, 
-        '기간': {
-            'id': 'ZJjp',
-            'type': 'date', 
-            'date': {
-                'start': '2024-10-08', 
-                'end': '2024-11-19', 
-                'time_zone': None
+        "기간": {
+            "id": "ZJjp",
+            "type": "date", 
+            "date": {
+                "start": "2024-10-08", 
+                "end": "2024-11-19", 
+                "time_zone": None
             }
         }, 
-        '기술스택': {
-            'id': 'hHO%7B', 
-            'type': 'multi_select', 
-            'multi_select': [
+        "기술스택": {
+            "id": "hHO%7B", 
+            "type": "multi_select", 
+            "multi_select": [
                 {
-                    'id': '0304e940-e49d-414f-b14d-8c3694399b91', 
-                    'name': 'JavaScript', 
-                    'color': 'green'
+                    "id": "0304e940-e49d-414f-b14d-8c3694399b91", 
+                    "name": "JavaScript", 
+                    "color": "green"
                 }, 
                 {
-                    'id': 'c6d5e32a-594c-4fd2-97fe-e3705798d2ab', 
-                    'name': 'Vue.js', 
-                    'color': 'red'
+                    "id": "c6d5e32a-594c-4fd2-97fe-e3705798d2ab", 
+                    "name": "Vue.js", 
+                    "color": "red"
                 }, 
                 {
-                    'id': '34be1814-0a30-43fd-892e-9053b8325027', 
-                    'name': 'Python', 
-                    'color': 'blue'
+                    "id": "34be1814-0a30-43fd-892e-9053b8325027", 
+                    "name": "Python", 
+                    "color": "blue"
                 }, 
                 {
-                    'id': '6f35de71-5f7a-4ec7-9a23-cfbe5e566700', 
-                    'name': 'Socket', 
-                    'color': 'purple'
+                    "id": "6f35de71-5f7a-4ec7-9a23-cfbe5e566700", 
+                    "name": "Socket", 
+                    "color": "purple"
                 }, 
                 {
-                    'id': '64332b2c-4937-425c-8b01-a742343c7145', 
-                    'name': 'Linux', 
-                    'color': 'pink'
+                    "id": "64332b2c-4937-425c-8b01-a742343c7145", 
+                    "name": "Linux", 
+                    "color": "pink"
                 }, 
                 {
-                    'id': '483d2070-6342-48b5-a96e-6d7d2097abc9', 
-                    'name': 'ROS2', 
-                    'color': 'gray'
+                    "id": "483d2070-6342-48b5-a96e-6d7d2097abc9", 
+                    "name": "ROS2", 
+                    "color": "gray"
                 }, 
                 {
-                    'id': 'ae267118-bc66-4084-90f1-213ac79cd10d', 
-                    'name': 'C++', 
-                    'color': 'red'
+                    "id": "ae267118-bc66-4084-90f1-213ac79cd10d", 
+                    "name": "C++", 
+                    "color": "red"
                 }, 
                 {
-                    'id': '9550f11c-cb05-4598-bc81-1ceca8447224', 
-                    'name': 'YOLO', 
-                    'color': 'pink'
+                    "id": "9550f11c-cb05-4598-bc81-1ceca8447224", 
+                    "name": "YOLO", 
+                    "color": "pink"
                 }, 
                 {
-                    'id': 'f345b8dd-8a9b-4019-8d82-997e49a56276', 
-                    'name': 'fastAPI', 
-                    'color': 'gray'
+                    "id": "f345b8dd-8a9b-4019-8d82-997e49a56276", 
+                    "name": "fastAPI", 
+                    "color": "gray"
                 }
-            ]}, 
-            '담당역할': {
-                'id': 'htSi', 
-                'type': 'rich_text', 
-                'rich_text': [
-                    {
-                        'type': 'text', 
-                        'text': {
-                            'content': '팀장, CCTV, RC카 제어', 
-                            'link': None
-                        }, 
-                        'annotations': {
-                            'bold': False, 
-                            'italic': False, 
-                            'strikethrough': False,
-                            'underline': False, 
-                            'code': False, 
-                            'color': 'default'
-                        }, 
-                        'plain_text': '팀장, CCTV, RC카 제어', 
-                        'href': None
-                    }]
-            }, 
-            '인원': {
-                'id': 'jGPp', 
-                'type': 'number', 
-                'number': 6
-            }, 
-            '프로젝트 개요': {
-                'id': '%7C_EQ', 
-                'type': 'rich_text', 
-                'rich_text': [
-                    {
-                        'type': 'text', 
-                        'text': {
-                            'content': 'CCTV를 통해 쓰러진 사람을 감지하고, AED를 탑재한 RC카를 출동시켜 인명 구조를 지원합니다.', 
-                            'link': None
-                        }, 
-                        'annotations': {
-                            'bold': False, 
-                            'italic': False, 
-                            'strikethrough': False, 
-                            'underline': False, 
-                            'code': False, 
-                            'color': 'default'
-                        }, 
-                        'plain_text': 'CCTV를 통해 쓰러진 사람을 감지하고, AED를 탑재한 RC카를 출동시켜 인명 구조를 지원합니다.', 
-                        'href': None
-                    }
-                ]
-            }, 
-            'Name': {
-                'id': 'title', 
-                'type': 'title', 
-                'title': [
-                    {
-                        'type': 'text', 
-                        'text': {
-                            'content': '응급 출동 RC카 프로젝트', 
-                            'link': None
-                        }, 
-                        'annotations': {
-                            'bold': False, 
-                            'italic': False, 
-                            'strikethrough': False, 
-                            'underline': False, 
-                            'code': False, 
-                            'color': 'default'
-                        }, 
-                        'plain_text': '응급 출동 RC카 프로젝트', 
-                        'href': None
-                    }
-                    ]
-            }
+            ]
         }, 
-        'url': 'https:/\/www.notion.so/RC-167c9007947f80b48b46f525b21976cc', 
-        'public_url': 'https:/\/magic-chili-c75.notion.site/RC-167c9007947f80b48b46f525b21976cc'
+        "담당역할": {
+            "id": "htSi", 
+            "type": "rich_text", 
+            "rich_text": [
+                {
+                    "type": "text", 
+                    "text": {
+                        "content": "팀장, CCTV, RC카 제어", 
+                        "link": null
+                    }, 
+                    "annotations": {                            "bold": false, 
+                        "italic": false, 
+                        "strikethrough": false,
+                        "underline": false, 
+                        "code": false, 
+                        "color": "default"
+                    }, 
+                    "plain_text": "팀장, CCTV, RC카 제어", 
+                    "href": None
+                }
+            ]
+        },
+        "인원": {
+            "id": "jGPp", 
+            "type": "number", 
+            "number": 6
+        }, 
+        "프로젝트 개요": {
+            "id": "%7C_EQ", 
+            "type": "rich_text", 
+            "rich_text": [
+                {
+                    "type": "text", 
+                    "text": {
+                        "content": "CCTV를 통해 쓰러진 사람을 감지하고, AED를 탑재한 RC카를 출동시켜 인명 구조를 지원합니다.", 
+                        "link": None
+                    }, 
+                    "annotations": {
+                        "bold": false, 
+                        "italic": false, 
+                        "strikethrough": false, 
+                        "underline": false, 
+                        "code": false, 
+                        "color": "default"
+                    }, 
+                    "plain_text": "CCTV를 통해 쓰러진 사람을 감지하고, AED를 탑재한 RC카를 출동시켜 인명 구조를 지원합니다.", 
+                    "href": None
+                }
+            ]
+        }, 
+        "Name": {
+            "id": "title", 
+            "type": "title", 
+            "title": [
+                {
+                    "type": "text", 
+                    "text": {
+                        "content": "응급 출동 RC카 프로젝트", 
+                        "link": None
+                    }, 
+                    "annotations": {
+                        "bold": false, 
+                        "italic": false, 
+                        "strikethrough": false, 
+                        "underline": false, 
+                        "code": false, 
+                        "color": "default"
+                    }, 
+                    "plain_text": "응급 출동 RC카 프로젝트", 
+                    "href": None
+                }
+                ]
+        }
+    }, 
+    "url": "https:/\/www.notion.so/RC-167c9007947f80b48b46f525b21976cc", 
+    "public_url": "https:/\/magic-chili-c75.notion.site/RC-167c9007947f80b48b46f525b21976cc"
 }
+]

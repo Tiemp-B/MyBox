@@ -1,0 +1,142 @@
+{
+    "object": "list", 
+    "results": [
+        {
+            "object": "block", 
+            "id": "15cc9007-947f-8022-9c5d-e8da2e655bf8", 
+            "parent": {
+                "type": "block_id", 
+                "block_id": "15cc9007-947f-8025-99de-ce33bcfc094b"
+            }, 
+            "created_time": "2024-12-14T08:58:00.000Z", 
+            "last_edited_time": "2025-03-14T15:13:00.000Z", 
+            "created_by": {
+                "object": "user", 
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            }, 
+            "last_edited_by": {
+                "object": "user", 
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            }, 
+            "has_children": True, 
+            "archived": False, 
+            "in_trash": False, 
+            "type": "bulleted_list_item", 
+            "bulleted_list_item": {
+                "rich_text": [
+                    {
+                        "type": "text", 
+                        "text": {
+                            "content": "Dot Matrix 16x8 스크린", 
+                            "link": None
+                        }, 
+                        "annotations": {
+                            "bold": False, 
+                            "italic": False, 
+                            "strikethrough": False, 
+                            "underline": False, 
+                            "code": False, 
+                            "color": "default"
+                        }, 
+                        "plain_text": "Dot Matrix 16x8 스크린", 
+                        "href": None
+                    }
+                ], 
+                "color": "default"
+            }
+        }, 
+        {
+            "object": "block", 
+            "id": "15cc9007-947f-80a7-a841-ff098474b656", 
+            "parent": {
+                "type": "block_id", 
+                "block_id": "15cc9007-947f-8025-99de-ce33bcfc094b"
+            }, 
+            "created_time": "2024-12-14T09:04:00.000Z", 
+            "last_edited_time": "2024-12-14T09:04:00.000Z", 
+            "created_by": {
+                "object": "user", 
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            }, 
+            "last_edited_by": {
+                "object": "user", 
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            }, 
+            "has_children": False, 
+            "archived": False, 
+            "in_trash": False, 
+            "type": "bulleted_list_item", 
+            "bulleted_list_item": {
+                "rich_text": [
+                    {
+                        "type": "text", 
+                        "text": {
+                            "content": "전원 제거 시 시간 저장", 
+                            "link": None
+                        }, 
+                        "annotations": {
+                            "bold": False, 
+                            "italic": False, 
+                            "strikethrough": False, 
+                            "underline": False, 
+                            "code": False, 
+                            "color": "default"
+                        }, 
+                        "plain_text": "전원 제거 시 시간 저장", 
+                        "href": None
+                    }
+                ], 
+                "color": "default"
+            }
+        }, 
+        {
+            "object": "block", 
+            "id": "15cc9007-947f-80a6-93b8-fb379ecf54c3", 
+            "parent": {
+                "type": "block_id", 
+                "block_id": "15cc9007-947f-8025-99de-ce33bcfc094b"
+            }, 
+            "created_time": "2024-12-14T09:05:00.000Z", 
+            "last_edited_time": "2024-12-14T09:05:00.000Z", 
+            "created_by": {
+                "object": "user", 
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            }, 
+            "last_edited_by": {
+                "object": "user", 
+                "id": "9be8ea32-395c-4dba-9558-f0d2add6f6cf"
+            }, 
+            "has_children": False, 
+            "archived": False, 
+            "in_trash": False, 
+            "type": "bulleted_list_item", 
+            "bulleted_list_item": {
+                "rich_text": [
+                    {
+                        "type": "text", 
+                        "text": {
+                            "content": "직접 설정 가능", 
+                            "link": None
+                        }, 
+                        "annotations": {
+                            "bold": False, 
+                            "italic": False, 
+                            "strikethrough": False, 
+                            "underline": False, 
+                            "code": False, 
+                            "color": "default"
+                        }, 
+                        "plain_text": "직접 설정 가능", 
+                        "href": None
+                    }
+                ], 
+                "color": "default"
+            }
+        }
+    ], 
+    "next_cursor": None, 
+    "has_more": False, 
+    "type": "block", 
+    "block": {}, 
+    "request_id": "37074f5e-e44f-4e08-b216-b9c22709ddcc"
+}
