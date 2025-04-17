@@ -1,0 +1,41 @@
+pipeline {
+    agent any
+
+    environment {
+        PROJECT_DIR = "Portfolio"
+        COMPOSE_CMD = "docker-compose -f ${PROJECT_DIR}/docker-compose.yml"
+    }
+
+    stages {
+        stage('Clone Repository') {
+            steps {
+                dir("${env.PROJECT_DIR}") {
+                    echo "Cloning from git..."
+                    sh 'rm -rf Portfolio'  
+                    sh 'git clone https://github.com/Tiemp-B/MyBox Portfolio'
+                }
+            }
+        }
+
+        stage('Build Docker Images') {
+            steps {
+                echo "Building Docker image of FE, BE, nginx"
+                sh "${COMPOSE_CMD} build frontend backend nginx"
+            }
+        }
+
+        stage('Stop and Remove Existing container') {
+            steps {
+                echo "removing old containers"
+                sh "${COMPOSE_CMD} rm -sf frontend backend nginx"
+            }
+        }
+
+        stage('Deploy Updated Containers') {
+            steps {
+                echo "Restarting latest container3"
+                sh "${COMPOSE_CMD} up -d frontend backend nginx"
+            }
+        }
+    }
+}
