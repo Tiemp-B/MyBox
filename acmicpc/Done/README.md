@@ -13,16 +13,18 @@
 |[1588](https://www.acmicpc.net/problem/1588)|G.I|수열|DP-DivideConcour|
 |[2010](https://www.acmicpc.net/problem/2010)|B.III|플러그|수학|
 |[2066](https://www.acmicpc.net/problem/2066)|G.I|카드놀이|DP-메모이제이션|
-|[2206](https://www.acmicpc.net/problem/2206)|G.III|벽 부수고 이동하기|BFS, 그래프 이론, 그래프 탐색|
 |[2166](https://www.acmicpc.net/problem/2166)|G.V|다각형의 면적|기하학, 다각형의 넓이|
 |[2200](https://www.acmicpc.net/problem/2200)|S.III|계산기|수학, 구현|
+|[2206](https://www.acmicpc.net/problem/2206)|G.III|벽 부수고 이동하기|BFS, 그래프 이론, 그래프 탐색|
 |[2417](https://www.acmicpc.net/problem/2417)|S.IV|정수 제곱근|수학, 이분탐색|
+|[2563](https://www.acmicpc.net/problem/2563)|S.V|색종이|구현|
 |[2564](https://www.acmicpc.net/problem/2564)|S.I|경비원|구현, 많은 조건 분기|
 |[2579](https://www.acmicpc.net/problem/2579)|S.III|계단오르기|DP-계단| 
 |[2590](https://www.acmicpc.net/problem/2590)|G.IV|색종이|구현, 그리디, 많은 조건 분기| 
 |[2741](https://www.acmicpc.net/problem/2741)|V.V|N 찍기|구현| 
 |[2702](https://www.acmicpc.net/problem/2702)|B.II|초6 수학|수학, 부르트포스| 
 |[2828](https://www.acmicpc.net/problem/2828)|S.V|사과 담기 게임|구현, 그리디|
+|[2960](https://www.acmicpc.net/problem/2960)|S.IV|에라토스테네스의 체|수학, 구현, 소수, 에라토스테네스의 체|
 |[2979](https://www.acmicpc.net/problem/2979)|B.II|트럭 주차|구현, 시뮬레이션| 
 |[3003](https://www.acmicpc.net/problem/3003)|B.V|킹, 퀸, 룩, 비숍, 나이트, 폰|수학, 구현| 
 |[3613](https://www.acmicpc.net/problem/3613)|S.III|Java vs C++|구현, 문자열, 파싱, 많은 조건 분기| 
@@ -63,6 +65,8 @@
 |[18766](https://www.acmicpc.net/problem/18766)|B.I|카드 바꿔치기|구현, 정렬|
 |[22115](https://www.acmicpc.net/problem/22115)|G.V|창영이와 커피|DP, knapsack|
 |[25631](https://www.acmicpc.net/problem/25631)|S.V|마트료시카 합치기|자료구조, 그리디, 정렬|
+|[25704](https://www.acmicpc.net/problem/25704)|B.IV|attendance event|math, |
+|[26517](https://www.acmicpc.net/problem/26517)|S.V|연속인가?|수학, 미적분학|
 |[26517](https://www.acmicpc.net/problem/26517)|S.V|연속인가?|수학, 미적분학|
 |[28282](https://www.acmicpc.net/problem/28282)|B.V|운명명|수학|
 |[23056](https://www.acmicpc.net/problem/23056)|B.IV|참가자 명단|구현, 정렬|
