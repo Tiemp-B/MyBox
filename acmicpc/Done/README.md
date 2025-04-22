@@ -34,6 +34,7 @@
 |[5430](https://www.acmicpc.net/problem/5430)|G.V|AC|시뮬, 자료 구조|
 |[9243](https://www.acmicpc.net/problem/9243)|B.II|파일 완전 삭제|문자열|
 |[9251](https://www.acmicpc.net/problem/9251)|G.V|LCS(수열)|DP, 문자열|
+|[9084](https://www.acmicpc.net/problem/9084)|G.V|동전|DP, 냅색|
 |[10039](https://www.acmicpc.net/problem/10039)|B.IV|평균 점수|구현, 사칙연산|
 |[10798](https://www.acmicpc.net/problem/10798)|B.I|세로읽기|구현, 문자열|
 |[10874](https://www.acmicpc.net/problem/10874)|B.III|이교수님의 시험|구현|

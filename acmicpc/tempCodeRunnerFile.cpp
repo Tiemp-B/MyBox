@@ -1,15 +1,9 @@
 
-    for(int d =0 ;d<65; d++){
-        for(int i=0; i<box[d].size();i++){
-            if (i == 0){
-                cout << box[d][i];
-            }else{
-                int ctt = func(box[d][i]);
-                cout <<box[d][i];
-                for(int t=0; t<17-ctt; t++){
-                    cout << 0;
-                }
-            }
-        }
-        cout <<endl;
-    }
+    //     for(int i=0;i<=target;++i){
+    //         int now = 0;
+    //         while(now<=target && i-now>=0){
+    //             mem[c][i] += mem[c-1][i-now];
+    //             now += money[c];
+    //         }  
+    //     }
+    // }
