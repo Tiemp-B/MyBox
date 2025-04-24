@@ -7,10 +7,13 @@
 |[1198](https://www.acmicpc.net/problem/1198)|B.II|삼각형으로 자르기기|수학, 브루트포스, 기하학|  
 |[1234](https://www.acmicpc.net/problem/1234)|G.II|크리스마스 트리리|수학, DP, 조합론| 
 |[1244](https://www.acmicpc.net/problem/1244)|S.IV|스위치 켜고 끄기|시뮬레이션| 
-|[1284](https://www.acmicpc.net/problem/1284)|B.III|집 주소|수학, 구현| 
+|[1284](https://www.acmicpc.net/problem/1284)|B.III|무한 수열|DP, 자료구조, 해시-집합,맵| 
+|[1351](https://www.acmicpc.net/problem/1351)|G.V|집 주소|수학, 구현| 
 |[1380](https://www.acmicpc.net/problem/1380)|S.V|귀걸이|구현, 문자열| 
 |[1516](https://www.acmicpc.net/problem/1516)|G.III|게임 개발| DP,위상정렬,그래프|  
-|[1588](https://www.acmicpc.net/problem/1588)|G.I|수열|DP-DivideConcour|
+|[1588](https://www.acmicpc.net/problem/1588)|G.I|수열|DP, 분할정복|
+|[1699](https://www.acmicpc.net/problem/1699)|S.II|제곱수의 합|DP, 수학|
+|[1915](https://www.acmicpc.net/problem/1915)|G.IV|가장 큰 정사각형|DP|
 |[2010](https://www.acmicpc.net/problem/2010)|B.III|플러그|수학|
 |[2066](https://www.acmicpc.net/problem/2066)|G.I|카드놀이|DP-메모이제이션|
 |[2166](https://www.acmicpc.net/problem/2166)|G.V|다각형의 면적|기하학, 다각형의 넓이|
@@ -66,7 +69,7 @@
 |[18766](https://www.acmicpc.net/problem/18766)|B.I|카드 바꿔치기|구현, 정렬|
 |[22115](https://www.acmicpc.net/problem/22115)|G.V|창영이와 커피|DP, knapsack|
 |[25631](https://www.acmicpc.net/problem/25631)|S.V|마트료시카 합치기|자료구조, 그리디, 정렬|
-|[25704](https://www.acmicpc.net/problem/25704)|B.IV|attendance event|math, |
+|[25704](https://www.acmicpc.net/problem/25704)|B.IV|출석 이벤트|수학, 구현|
 |[26517](https://www.acmicpc.net/problem/26517)|S.V|연속인가?|수학, 미적분학|
 |[26517](https://www.acmicpc.net/problem/26517)|S.V|연속인가?|수학, 미적분학|
 |[28282](https://www.acmicpc.net/problem/28282)|B.V|운명명|수학|

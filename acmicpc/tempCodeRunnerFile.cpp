@@ -1,9 +1,7 @@
-
-    //     for(int i=0;i<=target;++i){
-    //         int now = 0;
-    //         while(now<=target && i-now>=0){
-    //             mem[c][i] += mem[c-1][i-now];
-    //             now += money[c];
-    //         }  
+cout <<"log"<<endl;
+    // for(int i=1;i<=n;++i){
+    //     for(int j=1;j<=m;++j){
+    //         cout << mem[i][j];
     //     }
+    //     cout <<endl;
     // }
