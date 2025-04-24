@@ -14,6 +14,7 @@
 |[1588](https://www.acmicpc.net/problem/1588)|G.I|수열|DP, 분할정복|
 |[1699](https://www.acmicpc.net/problem/1699)|S.II|제곱수의 합|DP, 수학|
 |[1915](https://www.acmicpc.net/problem/1915)|G.IV|가장 큰 정사각형|DP|
+|[1937](https://www.acmicpc.net/problem/1937)|G.III|욕심쟁이 판다|DP, 그래프, DFS|
 |[2010](https://www.acmicpc.net/problem/2010)|B.III|플러그|수학|
 |[2066](https://www.acmicpc.net/problem/2066)|G.I|카드놀이|DP-메모이제이션|
 |[2166](https://www.acmicpc.net/problem/2166)|G.V|다각형의 면적|기하학, 다각형의 넓이|
