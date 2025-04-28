@@ -36,13 +36,15 @@
 |[4312](https://www.acmicpc.net/problem/4312)|S.III|3의 제곱|수학, 비트마스킹, 임의 정밀도/ 큰 수 연산|
 |[4991](https://www.acmicpc.net/problem/4991)|G.I|로봇청소기|그래프, 브루트포스, BFS, BitMask|
 |[5430](https://www.acmicpc.net/problem/5430)|G.V|AC|시뮬, 자료 구조|
+|[9084](https://www.acmicpc.net/problem/9084)|G.V|동전|DP, 냅색|
 |[9243](https://www.acmicpc.net/problem/9243)|B.II|파일 완전 삭제|문자열|
 |[9251](https://www.acmicpc.net/problem/9251)|G.V|LCS(수열)|DP, 문자열|
-|[9084](https://www.acmicpc.net/problem/9084)|G.V|동전|DP, 냅색|
+|[9657](https://www.acmicpc.net/problem/9657)|S.III|돌 게임 3|DP, 게임 이론론|
 |[10039](https://www.acmicpc.net/problem/10039)|B.IV|평균 점수|구현, 사칙연산|
 |[10798](https://www.acmicpc.net/problem/10798)|B.I|세로읽기|구현, 문자열|
 |[10874](https://www.acmicpc.net/problem/10874)|B.III|이교수님의 시험|구현|
 |[10384](https://www.acmicpc.net/problem/10384)|B.V|팬그램|구현, 문자열|
+|[10942](https://www.acmicpc.net/problem/10942)|G.IV|팰린드롬|DP|
 |[11022](https://www.acmicpc.net/problem/11022)|B.V|A+B -8|구현, 수학|
 |[11201](https://www.acmicpc.net/problem/11021)|B.V|A+B -7|구현, 수학|
 |[11536](https://www.acmicpc.net/problem/11536)|B.V|줄 세우기|구현, 문자열, 정렬|
