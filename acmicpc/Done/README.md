@@ -49,7 +49,8 @@
 |[11201](https://www.acmicpc.net/problem/11021)|B.V|A+B -7|구현, 수학|
 |[11536](https://www.acmicpc.net/problem/11536)|B.V|줄 세우기|구현, 문자열, 정렬|
 |[11580](https://www.acmicpc.net/problem/11580)|B.I|Footprint|시뮬레이션|
-|[11637](https://www.acmicpc.net/problem/11637)|S.V|인기 투표|구현현|
+|[11660](https://www.acmicpc.net/problem/11660)|S.I|구간합 구하기|DP, 누적합|
+|[11637](https://www.acmicpc.net/problem/11637)|S.V|인기 투표|구현|
 |[11723](https://www.acmicpc.net/problem/11723)|S.V|집합|bitmask, 구현|
 |[12813](https://www.acmicpc.net/problem/12813)|B.II|이진수 연산|문자열|
 |[12865](https://www.acmicpc.net/problem/12865)|G.V|평범한 배낭| DP-냅색|
