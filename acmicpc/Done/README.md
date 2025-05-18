@@ -75,8 +75,8 @@
 |[25631](https://www.acmicpc.net/problem/25631)|S.V|마트료시카 합치기|자료구조, 그리디, 정렬|
 |[25704](https://www.acmicpc.net/problem/25704)|B.IV|출석 이벤트|수학, 구현|
 |[26517](https://www.acmicpc.net/problem/26517)|S.V|연속인가?|수학, 미적분학|
-|[26517](https://www.acmicpc.net/problem/26517)|S.V|연속인가?|수학, 미적분학|
-|[28282](https://www.acmicpc.net/problem/28282)|B.V|운명명|수학|
+|[27501](https://www.acmicpc.net/problem/27501)|G.I|RGB트리|DP, 트리, 트리 DP, 역추적|
+|[28282](https://www.acmicpc.net/problem/28282)|B.V|운명|수학|
 |[23056](https://www.acmicpc.net/problem/23056)|B.IV|참가자 명단|구현, 정렬|
 |[23972](https://www.acmicpc.net/problem/23972)|B.III|악마의 제안|수학|
 |[24263](https://www.acmicpc.net/problem/24263)|B.IV|녹색거탑|수학, 사칙연산|
