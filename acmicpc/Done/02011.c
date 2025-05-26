@@ -2,10 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 char str[5001];
 int mem[5001][2]={};// 한자릿수인 가짓수, 두자릿 수인 가짓수
-
+// 세부 분기 조절 필수!!
 int main(){
     // init
     scanf("%s", str);
@@ -28,6 +27,10 @@ int main(){
                 cond = 0;
                 break;
             }else if(now == 0){// 두자릿수 강제
+                if(pre*10+now>26){
+                    cond = 0;
+                    break;
+                }
                 mem[idx][0] = 0;
                 mem[idx][1] = mem[idx-2][0] + mem[idx-2][1];
             }else if(pre==0 || pre*10+now>26){// 한자릿수 강제
@@ -49,7 +52,7 @@ int main(){
     if(0==cond)
         printf("0");
     else
-        printf("%d", (mem[idx-1][0] + mem[idx-1][1]));
+        printf("%d", (mem[idx-1][0] + mem[idx-1][1])%1000000);
 
     return 0;
 }

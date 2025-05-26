@@ -7,6 +7,7 @@
 |[1198](https://www.acmicpc.net/problem/1198)|B.II|삼각형으로 자르기기|수학, 브루트포스, 기하학|  
 |[1234](https://www.acmicpc.net/problem/1234)|G.II|크리스마스 트리리|수학, DP, 조합론| 
 |[1244](https://www.acmicpc.net/problem/1244)|S.IV|스위치 켜고 끄기|시뮬레이션| 
+|[1260](https://www.acmicpc.net/problem/1260)|S.II|DFS와 BFS|그래프이론, DFS, BFS| 
 |[1284](https://www.acmicpc.net/problem/1284)|B.III|무한 수열|DP, 자료구조, 해시-집합,맵| 
 |[1351](https://www.acmicpc.net/problem/1351)|G.V|집 주소|수학, 구현| 
 |[1380](https://www.acmicpc.net/problem/1380)|S.V|귀걸이|구현, 문자열| 
@@ -16,6 +17,7 @@
 |[1915](https://www.acmicpc.net/problem/1915)|G.IV|가장 큰 정사각형|DP|
 |[1937](https://www.acmicpc.net/problem/1937)|G.III|욕심쟁이 판다|DP, 그래프, DFS|
 |[2010](https://www.acmicpc.net/problem/2010)|B.III|플러그|수학|
+|[2011](https://www.acmicpc.net/problem/2011)|G.V|암호코드|DP|
 |[2066](https://www.acmicpc.net/problem/2066)|G.I|카드놀이|DP-메모이제이션|
 |[2166](https://www.acmicpc.net/problem/2166)|G.V|다각형의 면적|기하학, 다각형의 넓이|
 |[2200](https://www.acmicpc.net/problem/2200)|S.III|계산기|수학, 구현|
