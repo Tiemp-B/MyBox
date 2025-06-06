@@ -73,6 +73,7 @@
 |[17466](https://www.acmicpc.net/problem/17466)|B.II|N! mod P (1)|수학, 정수론|
 |[18242](https://www.acmicpc.net/problem/18242)|B.IV|네모네모 시력감사|구현, 애드 혹|
 |[18766](https://www.acmicpc.net/problem/18766)|B.I|카드 바꿔치기|구현, 정렬|
+|[21276](https://www.acmicpc.net/problem/21276)|G.II|계보 복원가 호석|DP, 자료구조, 해시, 집합, 맵, 비순환 그래프, 위상정렬, 그래프|
 |[22115](https://www.acmicpc.net/problem/22115)|G.V|창영이와 커피|DP, knapsack|
 |[25631](https://www.acmicpc.net/problem/25631)|S.V|마트료시카 합치기|자료구조, 그리디, 정렬|
 |[25704](https://www.acmicpc.net/problem/25704)|B.IV|출석 이벤트|수학, 구현|
