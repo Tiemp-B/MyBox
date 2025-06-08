@@ -19,6 +19,7 @@
 |[2010](https://www.acmicpc.net/problem/2010)|B.III|플러그|수학|
 |[2011](https://www.acmicpc.net/problem/2011)|G.V|암호코드|DP|
 |[2066](https://www.acmicpc.net/problem/2066)|G.I|카드놀이|DP-메모이제이션|
+|[2133](https://www.acmicpc.net/problem/2133)|G.V|타일 채우기|DP|
 |[2166](https://www.acmicpc.net/problem/2166)|G.V|다각형의 면적|기하학, 다각형의 넓이|
 |[2200](https://www.acmicpc.net/problem/2200)|S.III|계산기|수학, 구현|
 |[2206](https://www.acmicpc.net/problem/2206)|G.III|벽 부수고 이동하기|BFS, 그래프 이론, 그래프 탐색|
@@ -41,7 +42,7 @@
 |[9084](https://www.acmicpc.net/problem/9084)|G.V|동전|DP, 냅색|
 |[9243](https://www.acmicpc.net/problem/9243)|B.II|파일 완전 삭제|문자열|
 |[9251](https://www.acmicpc.net/problem/9251)|G.V|LCS(수열)|DP, 문자열|
-|[9657](https://www.acmicpc.net/problem/9657)|S.III|돌 게임 3|DP, 게임 이론론|
+|[9657](https://www.acmicpc.net/problem/9657)|S.III|돌 게임 3|DP, 게임 이론|
 |[10039](https://www.acmicpc.net/problem/10039)|B.IV|평균 점수|구현, 사칙연산|
 |[10798](https://www.acmicpc.net/problem/10798)|B.I|세로읽기|구현, 문자열|
 |[10874](https://www.acmicpc.net/problem/10874)|B.III|이교수님의 시험|구현|
@@ -56,7 +57,7 @@
 |[11723](https://www.acmicpc.net/problem/11723)|S.V|집합|bitmask, 구현|
 |[12813](https://www.acmicpc.net/problem/12813)|B.II|이진수 연산|문자열|
 |[12865](https://www.acmicpc.net/problem/12865)|G.V|평범한 배낭| DP-냅색|
-|[12873](https://www.acmicpc.net/problem/12873)|S.III|기념품품| 구현, 자료구조, 시뮬레이션, 큐|
+|[12873](https://www.acmicpc.net/problem/12873)|S.III|기념품| 구현, 자료구조, 시뮬레이션, 큐|
 |[14442](https://www.acmicpc.net/problem/14442)|G.III|벽 부수고 이동하기 2|BFS, 그래프 이론, 그래프 탐색|
 |[14568](https://www.acmicpc.net/problem/14568)|B.III|2017 연세대학교 프로그래밍 경시대회| 수학, 부루트포스|
 |[14720](https://www.acmicpc.net/problem/14720)|B.II|우유 축제|구현, 그리디 알고리즘즘|
@@ -71,6 +72,7 @@
 |[16430](https://www.acmicpc.net/problem/16430)|B.V|톰과 제리|수학|
 |[17202](https://www.acmicpc.net/problem/17202)|B.I|핸드폰 번호 궁합|구현, 문자열|
 |[17466](https://www.acmicpc.net/problem/17466)|B.II|N! mod P (1)|수학, 정수론|
+|[17825](https://www.acmicpc.net/problem/17825)|G.II|주사위 윷놀이|구현, 백트레킹, 브루트포스|
 |[18242](https://www.acmicpc.net/problem/18242)|B.IV|네모네모 시력감사|구현, 애드 혹|
 |[18766](https://www.acmicpc.net/problem/18766)|B.I|카드 바꿔치기|구현, 정렬|
 |[21276](https://www.acmicpc.net/problem/21276)|G.II|계보 복원가 호석|DP, 자료구조, 해시, 집합, 맵, 비순환 그래프, 위상정렬, 그래프|
@@ -92,6 +94,4 @@
 |[30874](https://www.acmicpc.net/problem/30874)|S.II|Pipelined|그리디, 애드혹, HCPC|
 |[31866](https://www.acmicpc.net/problem/31866)|B.II|손가락 게임|구현, 많은 조건 분기|
 |[31464](https://www.acmicpc.net/problem/31464)|G.II|초콜릿 괴도 코코|그래프, 브루트포스, 그래프탐색, DFS, BFS|
-
-
 

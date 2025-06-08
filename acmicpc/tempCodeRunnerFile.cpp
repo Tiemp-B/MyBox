@@ -1,12 +1,5 @@
-6
-1 2
-1 3
-3 4
-3 5
-3 6
-10 10 10
-20 1 1
-1 20 1
-1 1 20
-10 10 10
-10 10 10
++p){
+    //     if(pieces[p].locate.back() == end_point) cout <<-1 <<" ";
+    //     else cout <<pieces[p].locate.back()->score<<" ";
+    // }
+    // cout <<endl;
