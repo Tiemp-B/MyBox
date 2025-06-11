@@ -24,6 +24,7 @@
 |[2200](https://www.acmicpc.net/problem/2200)|S.III|계산기|수학, 구현|
 |[2206](https://www.acmicpc.net/problem/2206)|G.III|벽 부수고 이동하기|BFS, 그래프 이론, 그래프 탐색|
 |[2417](https://www.acmicpc.net/problem/2417)|S.IV|정수 제곱근|수학, 이분탐색|
+|[2467](https://www.acmicpc.net/problem/2467)|G.V|용액|이분탐색, 투 포인터|
 |[2563](https://www.acmicpc.net/problem/2563)|S.V|색종이|구현|
 |[2564](https://www.acmicpc.net/problem/2564)|S.I|경비원|구현, 많은 조건 분기|
 |[2579](https://www.acmicpc.net/problem/2579)|S.III|계단오르기|DP-계단| 
@@ -91,15 +92,18 @@
 |[23628](https://www.acmicpc.net/problem/23628)|B.I|악마의 연차 계산기|구현|
 |[23972](https://www.acmicpc.net/problem/23972)|B.III|악마의 제안|수학|
 |[24263](https://www.acmicpc.net/problem/24263)|B.IV|녹색거탑|수학, 사칙연산|
+|[24265](https://www.acmicpc.net/problem/24265)|B.III|알고리즘수업 - 알고리즘의 수행 시간 4|수학, 구현, 시뮬, 사칙연산|
 |[24723](https://www.acmicpc.net/problem/24723)|B.IV|알고리즘수업 - 수행시간 2|구현, 시뮬레이션|
 |[25709](https://www.acmicpc.net/problem/25709)|B.III|1 빼기|구현, 그리디|
 |[27512](https://www.acmicpc.net/problem/27512)|B.II|스네이크|수학, 애드 혹, 사칙연산|
 |[27964](https://www.acmicpc.net/problem/27694)|S.V|콰트로치즈피자|구현, 자료구조, 문자열|
+|[28444](https://www.acmicpc.net/problem/28444)|B.V|HI-ARC=?|수학, 사칙연산|
 |[29615](https://www.acmicpc.net/problem/29615)|S.V|알파빌과 베타빌|그리디|
 |[30873](https://www.acmicpc.net/problem/30873)|S.V|Hanyang PopularityExceeding...|그리디, 구현, HCPC|
 |[30874](https://www.acmicpc.net/problem/30874)|S.II|Pipelined|그리디, 애드혹, HCPC|
 |[31067](https://www.acmicpc.net/problem/31067)|B.I|다오의 경주 대회|수학, 구현, 그리디|
 |[31866](https://www.acmicpc.net/problem/31866)|B.II|손가락 게임|구현, 많은 조건 분기|
 |[31464](https://www.acmicpc.net/problem/31464)|G.II|초콜릿 괴도 코코|그래프, 브루트포스, 그래프탐색, DFS, BFS|
+|[31845](https://www.acmicpc.net/problem/31845)|S.III|카드교환|구현, 그리디, 정렬|
 |[32642](https://www.acmicpc.net/problem/32642)|B.IV|제발 당구 좀 치자|수학, 구현|
 
