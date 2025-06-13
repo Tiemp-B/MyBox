@@ -14,6 +14,7 @@
 |[1516](https://www.acmicpc.net/problem/1516)|G.III|게임 개발| DP,위상정렬,그래프|  
 |[1588](https://www.acmicpc.net/problem/1588)|G.I|수열|DP, 분할정복|
 |[1699](https://www.acmicpc.net/problem/1699)|S.II|제곱수의 합|DP, 수학|
+|[1806](https://www.acmicpc.net/problem/1806)|G.IV|부분합|누적 합, 두 포인터|
 |[1915](https://www.acmicpc.net/problem/1915)|G.IV|가장 큰 정사각형|DP|
 |[1937](https://www.acmicpc.net/problem/1937)|G.III|욕심쟁이 판다|DP, 그래프, DFS|
 |[2010](https://www.acmicpc.net/problem/2010)|B.III|플러그|수학|
@@ -38,6 +39,7 @@
 |[3613](https://www.acmicpc.net/problem/3613)|S.III|Java vs C++|구현, 문자열, 파싱, 많은 조건 분기| 
 |[4291](https://www.acmicpc.net/problem/4291)|S.IV|나무 블록|구현, 자료 구조|
 |[4312](https://www.acmicpc.net/problem/4312)|S.III|3의 제곱|수학, 비트마스킹, 임의 정밀도/ 큰 수 연산|
+|[4539](https://www.acmicpc.net/problem/4539)|B.I|반올림|수학, 사칙연산, 구현|
 |[4991](https://www.acmicpc.net/problem/4991)|G.I|로봇청소기|그래프, 브루트포스, BFS, BitMask|
 |[5430](https://www.acmicpc.net/problem/5430)|G.V|AC|시뮬, 자료 구조|
 |[9084](https://www.acmicpc.net/problem/9084)|G.V|동전|DP, 냅색|
@@ -59,7 +61,8 @@
 |[11723](https://www.acmicpc.net/problem/11723)|S.V|집합|bitmask, 구현|
 |[12813](https://www.acmicpc.net/problem/12813)|B.II|이진수 연산|문자열|
 |[12865](https://www.acmicpc.net/problem/12865)|G.V|평범한 배낭| DP-냅색|
-|[12873](https://www.acmicpc.net/problem/12873)|S.III|기념품| 구현, 자료구조, 시뮬레이션, 큐|
+|[12873](https://www.acmicpc.net/problem/12873)|S.III|기념품|구현, 자료구조, 시뮬레이션, 큐|
+|[14913](https://www.acmicpc.net/problem/14913)|B.III|등차수열에서 항 번호 찾기|수학, 사칙연산|
 |[14442](https://www.acmicpc.net/problem/14442)|G.III|벽 부수고 이동하기 2|BFS, 그래프 이론, 그래프 탐색|
 |[14568](https://www.acmicpc.net/problem/14568)|B.III|2017 연세대학교 프로그래밍 경시대회| 수학, 부루트포스|
 |[14720](https://www.acmicpc.net/problem/14720)|B.II|우유 축제|구현, 그리디 알고리즘즘|
