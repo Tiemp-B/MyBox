@@ -70,6 +70,7 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "valarray": "cpp",
-        "optional": "cpp"
+        "optional": "cpp",
+        "string.h": "c"
     }
 }

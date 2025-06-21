@@ -11,7 +11,9 @@
 |[1284](https://www.acmicpc.net/problem/1284)|B.III|무한 수열|DP, 자료구조, 해시-집합,맵| 
 |[1351](https://www.acmicpc.net/problem/1351)|G.V|집 주소|수학, 구현| 
 |[1380](https://www.acmicpc.net/problem/1380)|S.V|귀걸이|구현, 문자열| 
+|[1417](https://www.acmicpc.net/problem/1417)|S.V|국회의원 선거|자료구조, pq, 그리디, 시뮬| 
 |[1516](https://www.acmicpc.net/problem/1516)|G.III|게임 개발| DP,위상정렬,그래프|  
+|[1531](https://www.acmicpc.net/problem/1531)|S.V|투명|구현, 시뮬레이션|  
 |[1588](https://www.acmicpc.net/problem/1588)|G.I|수열|DP, 분할정복|
 |[1699](https://www.acmicpc.net/problem/1699)|S.II|제곱수의 합|DP, 수학|
 |[1806](https://www.acmicpc.net/problem/1806)|G.IV|부분합|누적 합, 두 포인터|
@@ -24,6 +26,7 @@
 |[2166](https://www.acmicpc.net/problem/2166)|G.V|다각형의 면적|기하학, 다각형의 넓이|
 |[2200](https://www.acmicpc.net/problem/2200)|S.III|계산기|수학, 구현|
 |[2206](https://www.acmicpc.net/problem/2206)|G.III|벽 부수고 이동하기|BFS, 그래프 이론, 그래프 탐색|
+|[2239](https://www.acmicpc.net/problem/2239)|G.IV|스도쿠|구현, 백트래킹|
 |[2417](https://www.acmicpc.net/problem/2417)|S.IV|정수 제곱근|수학, 이분탐색|
 |[2467](https://www.acmicpc.net/problem/2467)|G.V|용액|이분탐색, 투 포인터|
 |[2563](https://www.acmicpc.net/problem/2563)|S.V|색종이|구현|
@@ -45,9 +48,11 @@
 |[9084](https://www.acmicpc.net/problem/9084)|G.V|동전|DP, 냅색|
 |[9243](https://www.acmicpc.net/problem/9243)|B.II|파일 완전 삭제|문자열|
 |[9251](https://www.acmicpc.net/problem/9251)|G.V|LCS(수열)|DP, 문자열|
+|[9252](https://www.acmicpc.net/problem/9252)|G.IV|LCS 2|DP, 문자열, 역추적, 최장 공통 부분수열|
 |[9657](https://www.acmicpc.net/problem/9657)|S.III|돌 게임 3|DP, 게임 이론|
 |[10039](https://www.acmicpc.net/problem/10039)|B.IV|평균 점수|구현, 사칙연산|
 |[10798](https://www.acmicpc.net/problem/10798)|B.I|세로읽기|구현, 문자열|
+|[10809](https://www.acmicpc.net/problem/10809)|B.II|알파벳 찾기|구현, 문자열|
 |[10874](https://www.acmicpc.net/problem/10874)|B.III|이교수님의 시험|구현|
 |[10384](https://www.acmicpc.net/problem/10384)|B.V|팬그램|구현, 문자열|
 |[10942](https://www.acmicpc.net/problem/10942)|G.IV|팰린드롬|DP|
@@ -75,13 +80,16 @@
 |[15814](https://www.acmicpc.net/problem/15814)|B.II|야바위 대장|구현, 문자열|
 |[15874](https://www.acmicpc.net/problem/15874)|B.II|Caesar Cipher|구현, 문자열|
 |[15885](https://www.acmicpc.net/problem/15885)|B.V|고장난 시계|수학|
+|[16162](https://www.acmicpc.net/problem/16162)|S.IV|가희와 3단 고음|그리디|
 |[16430](https://www.acmicpc.net/problem/16430)|B.V|톰과 제리|수학|
 |[17202](https://www.acmicpc.net/problem/17202)|B.I|핸드폰 번호 궁합|구현, 문자열|
 |[17466](https://www.acmicpc.net/problem/17466)|B.II|N! mod P (1)|수학, 정수론|
 |[17825](https://www.acmicpc.net/problem/17825)|G.II|주사위 윷놀이|구현, 백트레킹, 브루트포스|
 |[18242](https://www.acmicpc.net/problem/18242)|B.IV|네모네모 시력감사|구현, 애드 혹|
 |[18766](https://www.acmicpc.net/problem/18766)|B.I|카드 바꿔치기|구현, 정렬|
+|[20499](https://www.acmicpc.net/problem/20499)|B.IV|Darius님 한타 안 함?|수학, 사칙연산|
 |[21276](https://www.acmicpc.net/problem/21276)|G.II|계보 복원가 호석|DP, 자료구조, 해시, 집합, 맵, 비순환 그래프, 위상정렬, 그래프|
+|[21278](https://www.acmicpc.net/problem/21278)|G.IV|호석이 두마리 치킨|그래프 이론, 브루트포스, 최단 경로, 플로이드-워셜|
 |[22115](https://www.acmicpc.net/problem/22115)|G.V|창영이와 커피|DP, knapsack|
 |[23251](https://www.acmicpc.net/problem/23251)|B.II|스물셋|수학, 애드 혹|
 |[23881](https://www.acmicpc.net/problem/23881)|B.I|알고리즘 수업 - 선택 정렬 1|구현, 정렬, 시뮬레이션|
@@ -90,7 +98,6 @@
 |[26517](https://www.acmicpc.net/problem/26517)|S.V|연속인가?|수학, 미적분학|
 |[27501](https://www.acmicpc.net/problem/27501)|G.I|RGB트리|DP, 트리, 트리 DP, 역추적|
 |[27940](https://www.acmicpc.net/problem/27940)|S.V|가지 산사태|그리디, 애드 혹|
-|[28282](https://www.acmicpc.net/problem/28282)|B.V|운명|수학|
 |[23056](https://www.acmicpc.net/problem/23056)|B.IV|참가자 명단|구현, 정렬|
 |[23628](https://www.acmicpc.net/problem/23628)|B.I|악마의 연차 계산기|구현|
 |[23972](https://www.acmicpc.net/problem/23972)|B.III|악마의 제안|수학|
@@ -98,10 +105,14 @@
 |[24265](https://www.acmicpc.net/problem/24265)|B.III|알고리즘수업 - 알고리즘의 수행 시간 4|수학, 구현, 시뮬, 사칙연산|
 |[24723](https://www.acmicpc.net/problem/24723)|B.IV|알고리즘수업 - 수행시간 2|구현, 시뮬레이션|
 |[25709](https://www.acmicpc.net/problem/25709)|B.III|1 빼기|구현, 그리디|
+|[27065](https://www.acmicpc.net/problem/27065)|B.I|2022년이 아름다웠던 이유|수학, 구현, 정수론, 소수 판정|
 |[27512](https://www.acmicpc.net/problem/27512)|B.II|스네이크|수학, 애드 혹, 사칙연산|
 |[27964](https://www.acmicpc.net/problem/27694)|S.V|콰트로치즈피자|구현, 자료구조, 문자열|
+|[28282](https://www.acmicpc.net/problem/28282)|B.V|운명|수학|
 |[28444](https://www.acmicpc.net/problem/28444)|B.V|HI-ARC=?|수학, 사칙연산|
 |[29615](https://www.acmicpc.net/problem/29615)|S.V|알파빌과 베타빌|그리디|
+|[29724](https://www.acmicpc.net/problem/29724)|B.I|'사과상자'에 들어있는 것은 무엇? 현금?|수학, 사칙연산|
+|[30676](https://www.acmicpc.net/problem/30676)|B.V|이 별은 무슨 색일까|구현|
 |[30873](https://www.acmicpc.net/problem/30873)|S.V|Hanyang PopularityExceeding...|그리디, 구현, HCPC|
 |[30874](https://www.acmicpc.net/problem/30874)|S.II|Pipelined|그리디, 애드혹, HCPC|
 |[31067](https://www.acmicpc.net/problem/31067)|B.I|다오의 경주 대회|수학, 구현, 그리디|
