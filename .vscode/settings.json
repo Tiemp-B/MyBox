@@ -71,6 +71,7 @@
         "typeinfo": "cpp",
         "valarray": "cpp",
         "optional": "cpp",
-        "string.h": "c"
+        "string.h": "c",
+        "stdio.h": "c"
     }
 }

@@ -17,11 +17,13 @@
 |[1588](https://www.acmicpc.net/problem/1588)|G.I|수열|DP, 분할정복|
 |[1699](https://www.acmicpc.net/problem/1699)|S.II|제곱수의 합|DP, 수학|
 |[1806](https://www.acmicpc.net/problem/1806)|G.IV|부분합|누적 합, 두 포인터|
+|[1874](https://www.acmicpc.net/problem/1874)|B.II|스택 수열|자료 구조, 스택|
 |[1915](https://www.acmicpc.net/problem/1915)|G.IV|가장 큰 정사각형|DP|
 |[1937](https://www.acmicpc.net/problem/1937)|G.III|욕심쟁이 판다|DP, 그래프, DFS|
 |[2010](https://www.acmicpc.net/problem/2010)|B.III|플러그|수학|
 |[2011](https://www.acmicpc.net/problem/2011)|G.V|암호코드|DP|
 |[2066](https://www.acmicpc.net/problem/2066)|G.I|카드놀이|DP-메모이제이션|
+|[2108](https://www.acmicpc.net/problem/2108)|S.II|통계학|수학, 구현, 정렬|
 |[2133](https://www.acmicpc.net/problem/2133)|G.V|타일 채우기|DP|
 |[2166](https://www.acmicpc.net/problem/2166)|G.V|다각형의 면적|기하학, 다각형의 넓이|
 |[2200](https://www.acmicpc.net/problem/2200)|S.III|계산기|수학, 구현|
@@ -40,6 +42,7 @@
 |[2979](https://www.acmicpc.net/problem/2979)|B.II|트럭 주차|구현, 시뮬레이션| 
 |[3003](https://www.acmicpc.net/problem/3003)|B.V|킹, 퀸, 룩, 비숍, 나이트, 폰|수학, 구현| 
 |[3613](https://www.acmicpc.net/problem/3613)|S.III|Java vs C++|구현, 문자열, 파싱, 많은 조건 분기| 
+|[4153](https://www.acmicpc.net/problem/4153)|B.III|직각삼각형|수학, 기하학| 
 |[4291](https://www.acmicpc.net/problem/4291)|S.IV|나무 블록|구현, 자료 구조|
 |[4312](https://www.acmicpc.net/problem/4312)|S.III|3의 제곱|수학, 비트마스킹, 임의 정밀도/ 큰 수 연산|
 |[4539](https://www.acmicpc.net/problem/4539)|B.I|반올림|수학, 사칙연산, 구현|
@@ -51,6 +54,7 @@
 |[9252](https://www.acmicpc.net/problem/9252)|G.IV|LCS 2|DP, 문자열, 역추적, 최장 공통 부분수열|
 |[9657](https://www.acmicpc.net/problem/9657)|S.III|돌 게임 3|DP, 게임 이론|
 |[10039](https://www.acmicpc.net/problem/10039)|B.IV|평균 점수|구현, 사칙연산|
+|[10041](https://www.acmicpc.net/problem/10041)|B.I|관광|수학, 사칙연산, 많은 조건 분기|
 |[10798](https://www.acmicpc.net/problem/10798)|B.I|세로읽기|구현, 문자열|
 |[10809](https://www.acmicpc.net/problem/10809)|B.II|알파벳 찾기|구현, 문자열|
 |[10874](https://www.acmicpc.net/problem/10874)|B.III|이교수님의 시험|구현|
@@ -64,6 +68,7 @@
 |[11660](https://www.acmicpc.net/problem/11660)|S.I|구간합 구하기|DP, 누적합|
 |[11637](https://www.acmicpc.net/problem/11637)|S.V|인기 투표|구현|
 |[11723](https://www.acmicpc.net/problem/11723)|S.V|집합|bitmask, 구현|
+|[11947](https://www.acmicpc.net/problem/11947)|S.III|이런 반전이|수학|
 |[12813](https://www.acmicpc.net/problem/12813)|B.II|이진수 연산|문자열|
 |[12865](https://www.acmicpc.net/problem/12865)|G.V|평범한 배낭| DP-냅색|
 |[12873](https://www.acmicpc.net/problem/12873)|S.III|기념품|구현, 자료구조, 시뮬레이션, 큐|
@@ -120,4 +125,6 @@
 |[31464](https://www.acmicpc.net/problem/31464)|G.II|초콜릿 괴도 코코|그래프, 브루트포스, 그래프탐색, DFS, BFS|
 |[31845](https://www.acmicpc.net/problem/31845)|S.III|카드교환|구현, 그리디, 정렬|
 |[32642](https://www.acmicpc.net/problem/32642)|B.IV|제발 당구 좀 치자|수학, 구현|
+|[33257](https://www.acmicpc.net/problem/33257)|S.IV|상현이의 물리학및실험1 실험 대작전|그리디 알고리즘, 정렬|
+|[33520](https://www.acmicpc.net/problem/33520)|S.V|초코바 만들기|수학, 그리디|
 
