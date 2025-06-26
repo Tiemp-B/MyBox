@@ -24,3 +24,7 @@ debug:
 # clean rule
 clean:
 	rm -f $(TARGET) temp_target
+
+# clear exe rule
+clearExe:
+	rm -f ./*.exe

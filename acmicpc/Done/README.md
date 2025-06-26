@@ -15,6 +15,7 @@
 |[1516](https://www.acmicpc.net/problem/1516)|G.III|게임 개발| DP,위상정렬,그래프|  
 |[1531](https://www.acmicpc.net/problem/1531)|S.V|투명|구현, 시뮬레이션|  
 |[1588](https://www.acmicpc.net/problem/1588)|G.I|수열|DP, 분할정복|
+|[1647](https://www.acmicpc.net/problem/1647)|G.IV|도시 분할 계획|그래프 이론, 최소 스패닝 트리, (유니온 파인드)|
 |[1699](https://www.acmicpc.net/problem/1699)|S.II|제곱수의 합|DP, 수학|
 |[1806](https://www.acmicpc.net/problem/1806)|G.IV|부분합|누적 합, 두 포인터|
 |[1874](https://www.acmicpc.net/problem/1874)|B.II|스택 수열|자료 구조, 스택|
@@ -29,6 +30,7 @@
 |[2200](https://www.acmicpc.net/problem/2200)|S.III|계산기|수학, 구현|
 |[2206](https://www.acmicpc.net/problem/2206)|G.III|벽 부수고 이동하기|BFS, 그래프 이론, 그래프 탐색|
 |[2239](https://www.acmicpc.net/problem/2239)|G.IV|스도쿠|구현, 백트래킹|
+|[2252](https://www.acmicpc.net/problem/2252)|G.III|줄세우기|그래프, 방향 비순환, 위상 정렬|
 |[2417](https://www.acmicpc.net/problem/2417)|S.IV|정수 제곱근|수학, 이분탐색|
 |[2467](https://www.acmicpc.net/problem/2467)|G.V|용액|이분탐색, 투 포인터|
 |[2563](https://www.acmicpc.net/problem/2563)|S.V|색종이|구현|
@@ -46,6 +48,7 @@
 |[4291](https://www.acmicpc.net/problem/4291)|S.IV|나무 블록|구현, 자료 구조|
 |[4312](https://www.acmicpc.net/problem/4312)|S.III|3의 제곱|수학, 비트마스킹, 임의 정밀도/ 큰 수 연산|
 |[4539](https://www.acmicpc.net/problem/4539)|B.I|반올림|수학, 사칙연산, 구현|
+|[4948](https://www.acmicpc.net/problem/4948)|S.II|베르트랑 공준|수학, 정수론, 소수 판정, 에라토스테네스의 체|
 |[4991](https://www.acmicpc.net/problem/4991)|G.I|로봇청소기|그래프, 브루트포스, BFS, BitMask|
 |[5430](https://www.acmicpc.net/problem/5430)|G.V|AC|시뮬, 자료 구조|
 |[9084](https://www.acmicpc.net/problem/9084)|G.V|동전|DP, 냅색|
@@ -80,6 +83,7 @@
 |[14929](https://www.acmicpc.net/problem/14920)|S.V|귀찮아(SIB)| 수학, 누적합|
 |[15650](https://www.acmicpc.net/problem/15650)|S.III|N과 M(2)|백트래킹|
 |[15666](https://www.acmicpc.net/problem/15666)|G.II|N과 M(12)|백트래킹|
+|[15681](https://www.acmicpc.net/problem/15681)|G.IV|트리와 쿼리|DP, 그래프 이론, 트리, DFS, 트리에서의 DP|
 |[15720](https://www.acmicpc.net/problem/15720)|S.V|카우버거|수학, 그리디|
 |[15781](https://www.acmicpc.net/problem/15781)|B.III|헬멧과 조끼|수학, 구현|
 |[15814](https://www.acmicpc.net/problem/15814)|B.II|야바위 대장|구현, 문자열|
@@ -121,6 +125,7 @@
 |[30873](https://www.acmicpc.net/problem/30873)|S.V|Hanyang PopularityExceeding...|그리디, 구현, HCPC|
 |[30874](https://www.acmicpc.net/problem/30874)|S.II|Pipelined|그리디, 애드혹, HCPC|
 |[31067](https://www.acmicpc.net/problem/31067)|B.I|다오의 경주 대회|수학, 구현, 그리디|
+|[31803](https://www.acmicpc.net/problem/31803)|S.III|교실 배정|수학, 조합론|
 |[31866](https://www.acmicpc.net/problem/31866)|B.II|손가락 게임|구현, 많은 조건 분기|
 |[31464](https://www.acmicpc.net/problem/31464)|G.II|초콜릿 괴도 코코|그래프, 브루트포스, 그래프탐색, DFS, BFS|
 |[31845](https://www.acmicpc.net/problem/31845)|S.III|카드교환|구현, 그리디, 정렬|
