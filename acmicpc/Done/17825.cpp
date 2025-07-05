@@ -83,9 +83,22 @@ void init(){
         pieces[i].locate.push_back(start_point);
 }
 
+bool flag = true;
+
 void recur(int turn, int score){
     if(turn == 10){
         if(ans < score) ans = score;
+        if(ans == 245 && flag){
+            flag = false;
+            cout <<"------------\n";
+            for(int p=0; p<4;++p){
+                cout << p<<" : ";
+                for(auto e : pieces[p].locate){
+                    cout <<e->score<<" ";
+                }
+                cout <<endl;
+            }
+        }
         return;
     }
     int end_piece=0;
