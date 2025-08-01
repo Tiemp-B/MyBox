@@ -74,5 +74,6 @@
         "string.h": "c",
         "stdio.h": "c",
         "queue": "cpp"
-    }
+    },
+    "java.project.sourcePaths": [""]
 }
