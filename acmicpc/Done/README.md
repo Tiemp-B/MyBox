@@ -113,6 +113,7 @@
 |[15885](https://www.acmicpc.net/problem/15885)|B.V|고장난 시계|수학|
 |[16162](https://www.acmicpc.net/problem/16162)|S.IV|가희와 3단 고음|그리디|
 |[16430](https://www.acmicpc.net/problem/16430)|B.V|톰과 제리|수학|
+|[17144](https://www.acmicpc.net/problem/17144)|G.IV|미세먼지 안녕!|구현, 시뮬레이션|
 |[17202](https://www.acmicpc.net/problem/17202)|B.I|핸드폰 번호 궁합|구현, 문자열|
 |[17404](https://www.acmicpc.net/problem/17404)|G.IV|RGB거리 2|DP|
 |[17466](https://www.acmicpc.net/problem/17466)|B.II|N! mod P (1)|수학, 정수론|
@@ -170,7 +171,9 @@
 |[31845](https://www.acmicpc.net/problem/31845)|S.III|카드교환|구현, 그리디, 정렬|
 |[32280](https://www.acmicpc.net/problem/32280)|B.II|지각생|구현, 문자열|
 |[32642](https://www.acmicpc.net/problem/32642)|B.IV|제발 당구 좀 치자|수학, 구현|
+|[33040](https://www.acmicpc.net/problem/33040)|S.I|마작 거신병 1|그리디, 해 구성|
 |[33257](https://www.acmicpc.net/problem/33257)|S.IV|상현이의 물리학및실험1 실험 대작전|그리디 알고리즘, 정렬|
+|[33497](https://www.acmicpc.net/problem/33497)|S.I|저녁 태권도|구현, 그리디|
 |[33520](https://www.acmicpc.net/problem/33520)|S.V|초코바 만들기|수학, 그리디|
 |[33992](https://www.acmicpc.net/problem/33992)|S.III|사막 탐험|수학, 기하학|
 
