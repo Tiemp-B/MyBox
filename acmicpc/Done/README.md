@@ -103,6 +103,7 @@
 |[14720](https://www.acmicpc.net/problem/14720)|B.II|우유 축제|구현, 그리디 알고리즘즘|
 |[14940](https://www.acmicpc.net/problem/14940)|S.I|쉬운 최단거리| 그래프 이론, 그래프 탐색, BFS|
 |[14929](https://www.acmicpc.net/problem/14920)|S.V|귀찮아(SIB)| 수학, 누적합|
+|[15317](https://www.acmicpc.net/problem/15317)|G.II|동방 보수|그리디, 이분 탐색, 매개 변수 탐색|
 |[15650](https://www.acmicpc.net/problem/15650)|S.III|N과 M(2)|백트래킹|
 |[15666](https://www.acmicpc.net/problem/15666)|G.II|N과 M(12)|백트래킹|
 |[15681](https://www.acmicpc.net/problem/15681)|G.IV|트리와 쿼리|DP, 그래프 이론, 트리, DFS, 트리에서의 DP|
@@ -176,4 +177,5 @@
 |[33497](https://www.acmicpc.net/problem/33497)|S.I|저녁 태권도|구현, 그리디|
 |[33520](https://www.acmicpc.net/problem/33520)|S.V|초코바 만들기|수학, 그리디|
 |[33992](https://www.acmicpc.net/problem/33992)|S.III|사막 탐험|수학, 기하학|
+|[34559](https://www.acmicpc.net/problem/34559)|G.IV|건물 측량|그래프, BFS, 누적합|
 
