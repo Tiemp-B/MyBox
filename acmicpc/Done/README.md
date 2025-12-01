@@ -57,6 +57,7 @@
 |[2979](https://www.acmicpc.net/problem/2979)|B.II|트럭 주차|구현, 시뮬레이션| 
 |[3000](https://www.acmicpc.net/problem/3000)|S.I|직각 삼각형|수학, 기하학, 조합, 집합| 
 |[3003](https://www.acmicpc.net/problem/3003)|B.V|킹, 퀸, 룩, 비숍, 나이트, 폰|수학, 구현| 
+|[3012](https://www.acmicpc.net/problem/3012)|P.III|올바른 괄호 문자열|DP| 
 |[3613](https://www.acmicpc.net/problem/3613)|S.III|Java vs C++|구현, 문자열, 파싱, 많은 조건 분기| 
 |[4153](https://www.acmicpc.net/problem/4153)|B.III|직각삼각형|수학, 기하학| 
 |[4291](https://www.acmicpc.net/problem/4291)|S.IV|나무 블록|구현, 자료 구조|
@@ -83,6 +84,7 @@
 |[10874](https://www.acmicpc.net/problem/10874)|B.III|이교수님의 시험|구현|
 |[10384](https://www.acmicpc.net/problem/10384)|B.V|팬그램|구현, 문자열|
 |[10942](https://www.acmicpc.net/problem/10942)|G.IV|팰린드롬|DP|
+|[10958](https://www.acmicpc.net/problem/10958)|G.I|Ice Hockey World Championship|이분탐색, 중간에서 만나기|
 |[11022](https://www.acmicpc.net/problem/11022)|B.V|A+B -8|구현, 수학|
 |[11109](https://www.acmicpc.net/problem/11109)|B.III|괴짜 교수|수학|
 |[11201](https://www.acmicpc.net/problem/11021)|B.V|A+B -7|구현, 수학|
@@ -104,6 +106,7 @@
 |[14940](https://www.acmicpc.net/problem/14940)|S.I|쉬운 최단거리| 그래프 이론, 그래프 탐색, BFS|
 |[14929](https://www.acmicpc.net/problem/14920)|S.V|귀찮아(SIB)| 수학, 누적합|
 |[15317](https://www.acmicpc.net/problem/15317)|G.II|동방 보수|그리디, 이분 탐색, 매개 변수 탐색|
+|[15500](https://www.acmicpc.net/problem/15500)|S.II|이상한 하노이탑|구현, 자료 구조, 시뮬레이션, 스택|
 |[15650](https://www.acmicpc.net/problem/15650)|S.III|N과 M(2)|백트래킹|
 |[15666](https://www.acmicpc.net/problem/15666)|G.II|N과 M(12)|백트래킹|
 |[15681](https://www.acmicpc.net/problem/15681)|G.IV|트리와 쿼리|DP, 그래프 이론, 트리, DFS, 트리에서의 DP|
@@ -140,6 +143,8 @@
 |[24263](https://www.acmicpc.net/problem/24263)|B.IV|녹색거탑|수학, 사칙연산|
 |[24265](https://www.acmicpc.net/problem/24265)|B.III|알고리즘수업 - 알고리즘의 수행 시간 4|수학, 구현, 시뮬, 사칙연산|
 |[24723](https://www.acmicpc.net/problem/24723)|B.IV|알고리즘수업 - 수행시간 2|구현, 시뮬레이션|
+|[25286](https://www.acmicpc.net/problem/25286)|B.III|11월 11일|구현, 많은 조건 분기|
+|[25395](https://www.acmicpc.net/problem/25935)|G.III|커넥티드 카 실험|그래프, BFS, 두 포인터|
 |[25631](https://www.acmicpc.net/problem/25631)|S.V|마트료시카 합치기|자료구조, 그리디, 정렬|
 |[25704](https://www.acmicpc.net/problem/25704)|B.IV|출석 이벤트|수학, 구현|
 |[25709](https://www.acmicpc.net/problem/25709)|B.III|1 빼기|구현, 그리디|

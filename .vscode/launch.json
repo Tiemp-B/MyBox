@@ -1,22 +1,31 @@
 {
     "version": "0.2.0",
     "configurations": [
+        // Java 설정
         {
             "type": "java",
-            "name": "test",
+            "name": "Java: Main",
             "request": "launch",
-            "mainClass": "javaFolder.test",
+            "mainClass": "javaFolder.Main",
             "projectName": "MyBox_ba1a96b9"
         },
         {
             "type": "java",
-            "name": "test",
+            "name": "Java: code1",
             "request": "launch",
-            "mainClass": "java.test",
+            "mainClass": "javaFolder.code1",
             "projectName": "MyBox_ba1a96b9"
         },
         {
-            "name": "g++.exe build and debug active file",
+            "type": "java",
+            "name": "Java: test",
+            "request": "launch",
+            "mainClass": "javaFolder.test",  // 중복 제거, 하나만 남김
+            "projectName": "MyBox_ba1a96b9"
+        },
+        // C++ 설정
+        {
+            "name": "C++: Debug Active File",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -24,7 +33,7 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": true,
+            "externalConsole": false,  // VS Code 통합 터미널 사용 권장
             "MIMode": "gdb",
             "miDebuggerPath": "gdb.exe",
             "setupCommands": [
