@@ -95,5 +95,8 @@
 		"expected": "cpp"
 	},
 	"C_Cpp.errorSquiggles": "enabled",
-    "java.project.sourcePaths": [""]
+    "java.project.sourcePaths": [""],
+	"markdown.extension.toc.levels": "1..4",
+  "markdown.extension.toc.updateOnSave": true,
+  "markdown.extension.preview.autoShowPreviewToSide": true
 }
