@@ -3,7 +3,7 @@
 
 |번호|랭크|제목|카테고리|c|c++|python|java|rust|
 |:---|---|---:|------:|---:|---:|---:|---:|---:|
-|[1106](https://www.acmicpc.net/problem/1106)|G.IV|호텔|DP-냅색|- [ ]|- [ ]|- [ ]|- [ ]|- [ ]|
+|[1106](https://www.acmicpc.net/problem/1106)|G.IV|호텔|DP-냅색| - [ ] |- [ ]|- [ ]|- [ ]|- [ ]|
 |[1183](https://www.acmicpc.net/problem/1183)|S.II|약속|수학, 정렬|- [ ]|- [ ]|- [ ]|- [ ]|- [ ]|
 |[1198](https://www.acmicpc.net/problem/1198)|B.II|삼각형으로 자르기기|수학, 브루트포스, 기하학|- [ ]|- [ ]|- [ ]|- [ ]|- [ ]|
 |[1234](https://www.acmicpc.net/problem/1234)|G.II|크리스마스 트리리|수학, DP, 조합론|- [ ]|- [ ]|- [ ]|- [ ]|- [ ]|
