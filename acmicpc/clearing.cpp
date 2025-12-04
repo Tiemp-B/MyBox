@@ -1,24 +1,53 @@
-#include <iostream>
+#include <algorithm>
 #include <filesystem>
+#include <fstream>
+#include <iostream>
 #include <string>
 #include <unordered_set>
-#include <algorithm>
 #include <vector>
+#include <windows.h>
 
+
+#include "json.hpp"
+
+using json = nlohmann::json;
 using namespace std;
 namespace fs = std::filesystem;
 
-int main() {
+string readmePath = "./Done/README.md";
+
+string readmeTemplate1 = "|[";
+string readmeTemplate2 = "](https://www.acmicpc.net/problem/";
+string readmeTemplate3 = ")|"; // 난이도
+string readmeTemplate4 = "|"; // 문제명
+string readmeTemplate5 = "|"; // 카테고리
+string readmeTemplate6 = "|☐|☐|☐|☐|☐|";
+// ☑
+
+string jsonPath = "./Done/files_data.json";
+
+json solvedData;
+
+string inp;
+int probNum=-1;
+string probPath="./Done/";
+string probCate;
+string fileName;
+fs::__cxx11::directory_entry solvedFile;
+
+void deletingExe(){
     // 예외 파일 목록
     unordered_set<string> exceptionFiles = {
         "clearing.exe",
-        "Makefile"
+        "Makefile",
+        "json.hpp",
+        "moving.cpp"
         // 필요한 예외 파일 추가
     };
     
     string currentPath = ".";
     
-    // 1. .exe 파일 삭제 (예외 파일 제외)
+    // .exe 파일 삭제 (예외 파일 제외)
     cout << "=== Deleting .exe files ===\n";
     for (const auto& entry : fs::directory_iterator(currentPath)) {
         if (entry.is_regular_file() && entry.path().extension() == ".exe") {
@@ -32,71 +61,170 @@ int main() {
             }
         }
     }
-    
-    // 2. 5자리 숫자 파일 입력 받기
-    cout << "\n=== Enter 5-digit file number ===\n";
-    cout << "File number (00000-99999): ";
-    string fileNum;
-    cin >> fileNum;
-    
-    // 입력 검증
-    if (fileNum.length() != 5 || !all_of(fileNum.begin(), fileNum.end(), ::isdigit)) {
-        cout << "Error: Invalid input. Must be 5-digit number.\n";
-        return 1;
+}
+
+void jsonInit(){
+    ifstream inpJson(jsonPath);
+    if(inpJson.is_open()){
+        inpJson >> solvedData;
+        inpJson.close();
+    }else{
+        solvedData = json::object();
     }
-    
-    // 3. 파일 찾기
-    vector<fs::path> matchingFiles;
-    for (const auto& entry : fs::directory_iterator(currentPath)) {
-        if (entry.is_regular_file()) {
+}
+
+void nowSolve(){
+    cout << "Solved number: ";
+    cin >> inp;
+    probNum = stoi(inp);
+    int temp;
+    if(inp.size()==4){
+        char buf[10];
+        sprintf(buf, "%05d", probNum);
+        inp = string(buf);
+    }
+    char buf2[10];
+    temp = (probNum/10000)*10000;
+    sprintf(buf2, "%05d", temp);
+    probCate = string(buf2);
+    probPath += probCate +"/"+inp;
+
+    // 풀은 파일 찾기
+    for(const auto& entry : fs::directory_iterator(".")){
+        if(entry.is_regular_file()){
             string filename = entry.path().filename().string();
-            // 파일명이 입력한 숫자로 시작하는지 확인
-            if (filename.find(fileNum) == 0) {
-                matchingFiles.push_back(entry.path());
+            if(filename.find(inp)==0){
+                solvedFile = entry;
+                break;
             }
         }
     }
-    
-    if (matchingFiles.empty()) {
-        cout << "No files found starting with " << fileNum << "\n";
-        return 0;
+}
+
+void moveFile(){
+    if(!fs::exists(probPath)){
+        fs::create_directories(probPath);
     }
     
-    // 4. 이동할 폴더 결정 (00000-09999 -> 00000, 10000-19999 -> 10000, ...)
-    int num = stoi(fileNum);
-    int folderNum = (num / 10000) * 10000;
+    try{
+        fs::path destFile = fs::path(probPath)/ solvedFile.path().filename();
+        fs::rename(solvedFile.path(), destFile);
+        cout <<"Move Done\n";
+    }catch (const exception& e){
+        cerr<< "Move failed\n";
+    }
+}
+
+void jsonUpdate(){
+    if(solvedData.find(inp) == solvedData.end()){ // 없는 항목이다.
+        solvedData[inp][".c"] = false;
+        solvedData[inp][".cpp"] = false;
+        solvedData[inp][".py"] = false;
+        solvedData[inp][".java"] = false;
+        solvedData[inp][".rs"] = false;
+        solvedData[inp]={
+            {".c", false},
+            {".cpp", false},
+            {".py", false},
+            {".java", false},
+            {".rs", false}
+        };
+    }
+    solvedData[inp][solvedFile.path().extension().string()] = true;
+    ofstream outJson(jsonPath);
+    outJson << solvedData;
+    outJson.close();
+}
+
+void readmeUpdate(){
+    vector<string> lines;
+    string probTitle, probLevel, probCategories, line;
+    string probLine="|[";
+    bool done=false;
+    string trash;
+    // 파일 정보
+    while(true){
+        cout <<"===Problem Info===\n";
+        cout << "Title: ";
+        getline(cin, trash);
+        getline(cin, probTitle);
+        cout << "Level: ";
+        cin >> probLevel;
+        cout << "Categories: ";
+        getline(cin, trash);
+        getline(cin, probCategories);
+
+        cout << "\n===Confirm===\n";
+        cout << "Title: "<< probTitle<<"\n";
+        cout << "Level: "<< probLevel<<"\n";
+        cout << "Categories: " << probCategories<<"\n";
+        cout << "Proceed? [y/n]  ";
+        cin >> line;
+        if(line[0] =='y'||line[0]=='Y') break;
+    }
+    line.clear();
     
-    // 폴더 이름 생성 (5자리로 포맷)
-    char folderName[10];
-    sprintf(folderName, "%05d", folderNum);
-    
-    string destPath = "./Done/" + string(folderName);
-    
-    // 5. 목적지 폴더 생성 (없으면)
-    try {
-        if (!fs::exists(destPath)) {
-            fs::create_directories(destPath);
-            cout << "Created directory: " << destPath << "\n";
+    probLine += to_string(probNum) + readmeTemplate2;
+    probLine += to_string(probNum) + readmeTemplate3 + ")|";
+    probLine += probLevel + "|";
+    probLine += probTitle + "|";
+    probLine += probCategories + "|";
+
+    for(auto& v : solvedData[inp]){
+        if(v){
+            probLine += " ☑ |";
+        }else{
+            probLine += " ☐ |";
         }
-    } catch (const exception& e) {
-        cerr << "Failed to create directory: " << e.what() << "\n";
-        return 1;
     }
-    
-    // 6. 파일 이동
-    cout << "\n=== Moving files to " << destPath << " ===\n";
-    for (const auto& file : matchingFiles) {
-        try {
-            fs::path destFile = fs::path(destPath) / file.filename();
-            fs::rename(file, destFile);
-            cout << "Moved: " << file.filename() << " -> " << destFile << "\n";
-        } catch (const exception& e) {
-            cerr << "Failed to move " << file << ": " << e.what() << "\n";
+
+    // README에서의 위치 찾기
+    ifstream readmeFile(readmePath);
+    int cnt=5;
+    while(getline(readmeFile, line)){
+        if(cnt-->0){
+            lines.push_back(line);
+            continue;
+        }
+        int num = stoi(line.substr(2, line.find(']',0)-2));
+        if(!done){
+            if(num==probNum){//갱신
+                lines.push_back(probLine);
+            }else if(num <probNum){ // 현재 라인은 목표번호보다 이르다
+                lines.push_back(line);
+            }else{ // 추가
+                lines.push_back(probLine);
+                lines.push_back(line);
+                done = true;
+            }
+        }else{
+            lines.push_back(line);
         }
     }
-    
-    cout << "\nTotal moved: " << matchingFiles.size() << " file(s)\n";
-    cout << "Done!\n";
-    
+    if(!done){
+        lines.push_back(probLine);
+    }
+    readmeFile.close();
+
+    // 저장
+    ofstream outFile(readmePath);
+    for(const auto& lin: lines){
+        outFile << lin <<"\n";
+    }
+    outFile.close();
+}
+
+int main(){
+    // deletingExe();
+
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+
+    jsonInit();
+    nowSolve();
+    jsonUpdate();
+    readmeUpdate();
+    moveFile();
+
     return 0;
 }

@@ -1,12 +1,9 @@
-#include <algorithm>
+#include <iostream>
 #include <filesystem>
 #include <fstream>
-#include <iostream>
 #include <string>
-#include <unordered_set>
-#include <vector>
-#include <windows.h>
-
+#include <algorithm>
+#include <unordered_map>
 
 #include "json.hpp"
 
@@ -23,53 +20,13 @@ unordered_map<string, int> extensionType ={
 };
 
 string readme = "./README.md";
-string jsonPath = "./files_data.json";
+string jsonFile = "./files_data.json";
 string currentPath = ".";
 
 json jsonData;
 
-int main(){ // readme 적용을 위한 함수
-    SetConsoleOutputCP(CP_UTF8);
-    SetConsoleCP(CP_UTF8);
-
-    vector<string> readmeLines;
-    
-    ifstream jsonFile(jsonPath);
-    if(jsonFile.is_open()){
-        jsonFile >> jsonData;
-        jsonFile.close();
-    }else return 0;
-
-    ifstream readmeFile(readme);
-    string line;
-    int cnt=5;
-    vector<string> lines;
-    while(getline(readmeFile, line)){
-        if(cnt-->0){
-            lines.push_back(line);    
-            continue;
-        }
-        string problemNum = line.substr(2, line.find(']', 0)-2);
-        if(problemNum.size()==4) problemNum = "0"+problemNum;
-        
-        for(auto &[lang, solved] : jsonData[problemNum].items()){
-            if(solved) line+= " ☑ |";
-            else line+=" ☐ |";
-        }
-        lines.push_back(line);
-    }
-    readmeFile.close();
-
-    ofstream readmeNew(readme);
-    for(const auto& l : lines){
-        readmeNew << l <<"\n";
-    }
-    readmeNew.close();
-    return 0;
-}
-
-int main3(){
-    ifstream inpJson(jsonPath);
+int main(){
+    ifstream inpJson(jsonFile);
     if(inpJson.is_open()){
         inpJson >> jsonData;
         inpJson.close();
@@ -96,14 +53,14 @@ int main3(){
                     {".rust", false}
                 };
                 jsonData[fileName][entry3.path().extension().string()] = true;
-                ofstream outJson(jsonPath);
+                ofstream outJson(jsonFile);
                 outJson << jsonData;
                 outJson.close();
             }
         }
     }
-    return 0;
 }
+
 
 int main2(){
     for(const auto& entry : fs::directory_iterator(currentPath)){
